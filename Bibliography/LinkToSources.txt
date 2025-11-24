@@ -1,11 +1,16 @@
+demo :
 https://huggingface.co/spaces/imageomics/bioclip-2-demo
 
+nvidia paper :
 https://blogs.nvidia.com/blog/bioclip2-foundation-ai-model/
 
+BioClip 2 paper :
 https://arxiv.org/pdf/2505.23883
 
 https://imageomics.github.io/bioclip-2/
 
+DataSet for BioClip2 :
 https://huggingface.co/datasets/imageomics/TreeOfLife-200M
 
+Github TaxonoPy :
 https://github.com/Imageomics/TaxonoPy
