@@ -1,0 +1,11 @@
+https://huggingface.co/spaces/imageomics/bioclip-2-demo
+
+https://blogs.nvidia.com/blog/bioclip2-foundation-ai-model/
+
+https://arxiv.org/pdf/2505.23883
+
+https://imageomics.github.io/bioclip-2/
+
+https://huggingface.co/datasets/imageomics/TreeOfLife-200M
+
+https://github.com/Imageomics/TaxonoPy
