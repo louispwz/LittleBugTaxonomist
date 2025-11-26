@@ -66,3 +66,20 @@ Reu mardi 02/12 avec chercheurs et Laeticia :
 -   A préparer : slide présentation du papier BIOCLIP : ce qu’on a
     compris/pas compris sur le modèle, la méthode, les données entrées,
     les sorties ??? etc
+
+
+
+
+    
+    
+- zero shot = besoin d'info auxiliaire type texte (--> CLIP text-to-image), pas ici 
+
+- regarder ce que c'est un ViT ? ce que c'est un ViT
+
+- regarder comment la hiérarchie se comporte
+
+- prendre un jeu de donnée random et tester le code --> voir output
+
+- comment les classes s'organisent dans l'espace latent ? comment se structure ce nouvel espace ? remonte ? 
+
+- 
