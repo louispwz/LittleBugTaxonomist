@@ -4,51 +4,68 @@ import open_clip
 import torch
 import torch.nn.functional as F
 
-# 1. load model & preprocessing
+# verifie si GPU disponible (mais moi je n'ai pas)
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2', pretrained=True)
+
+# Charge le modele et le preprocess
+model, _, preprocess = open_clip.create_model_and_transforms(
+    'hf-hub:imageomics/bioclip-2')
 model.to(device)
+
+# Tokenizer pour transformer du texte en embedding (on utilise pas ici mais c'est dans le code exemple)
 tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 
-def predict_image(image_path, candidate_labels):
-    # candidate_labels: list of strings, e.g. ['dog', 'cat', 'sparrow', ...]
+
+# Fonction pour pred en zero-shot
+def predict_image_zero_shot(image_path, candidate_labels): # en entrée une image et des candidats potentiels
+    
+    # Prétraitement de l'image
     image = Image.open(image_path).convert("RGB")
     image_input = preprocess(image).unsqueeze(0).to(device)
 
+    # Embedding de l'image
     with torch.no_grad():
         image_features = model.encode_image(image_input)
 
-    # tokenize text labels
+    # prompt pour chaque photo
     texts = [f"a photo of a {label}" for label in candidate_labels]
     text_tokens = tokenizer(texts).to(device)
 
+    # Embedding du texte
     with torch.no_grad():
         text_features = model.encode_text(text_tokens)
 
-    # normalize (optional but often helps)
+    # norm
     image_features = image_features / image_features.norm(dim=-1, keepdim=True)
     text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-    # compute similarity scores
-    logits = 100.0 * image_features @ text_features.T  # scale as CLIP does
+    # cos sim et softmax pour obtenir des probas pour chauqe candidats
+    logits = 100.0 * image_features @ text_features.T
     probs = logits.softmax(dim=-1)[0]
 
-    # return labels sorted by probability
+    # Trie les labels par proba decroissante (meilleur en premier)
     probs = probs.cpu().numpy()
     sorted_idx = probs.argsort()[::-1]
     return [(candidate_labels[i], float(probs[i])) for i in sorted_idx]
 
-if __name__ == "__main__":
-    # Example usage:
-    image_folder = "/path/to/your/images"
-    # Define your custom classes
-    candidate_labels = ["Homo sapiens", "Felis catus", "Canis lupus", "Corvus corax", "Quercus robur"]  # etc.
 
-    for fname in os.listdir(image_folder):
-        if fname.lower().endswith((".jpg", ".png", ".jpeg")):
-            path = os.path.join(image_folder, fname)
-            result = predict_image(path, candidate_labels)
-            print(f"Image: {fname} -> Predictions:")
-            for label, p in result[:5]:
-                print(f"   {label}: {p:.4f}")
-            print("---")
+
+
+
+if __name__ == "__main__":
+    # image
+    # image_path = "Code/Test_images/images_raw/00014904.jpg"
+    image_path = "Code/Test_images/images_raw/00013600.jpg"
+    # image_path = "Code/Test_images/images_raw/00000053.jpg"
+
+    # Liste des labels candidats un peu mis au hasard mais on peut le changer si on sait ce qu'on fait
+    candidate_labels = ["grass-hopper", "mantis religiosa", "bee", "dog", "butterfly", "Danaus plexippus", "beetle"]
+
+    # Pred zeroshot
+    result = predict_image_zero_shot(image_path, candidate_labels)
+    print(f"Image: {os.path.basename(image_path)}  Predictions:")
+    for label, p in result:
+        print(f"   {label}: {p:.4f}")
+    best_label, best_prob = result[0]
+    print(f"Cette image est predite comme '{best_label}'")
+    
