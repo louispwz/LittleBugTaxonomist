@@ -20,7 +20,7 @@ editor_options:
 
 -   Regarder comment les erreurs sont calculé et justifié.
 
-### Démarche projet :
+### Démarche projet
 
 Etape 1 : Tester ce modèle de fondation (BioClip2) :
 
@@ -51,14 +51,12 @@ a trouver pour chaque niveaux, quand on se trompe, comment on se trompe
 -   Tirer la ficelles des ref : aller voir les papiers cité dans sources
     init
 
-- Premier tests ?
+-   Premier tests ?
 
-### Orga :
+### Orga
 
 Visio mercredi 26/11 avec Laeticia : point sur la compréhension du
 papier
-
-Reu vendredi 28/11 avec Laeticia à Vannes :
 
 Reu mardi 02/12 avec chercheurs et Laeticia :
 
@@ -67,19 +65,135 @@ Reu mardi 02/12 avec chercheurs et Laeticia :
     compris/pas compris sur le modèle, la méthode, les données entrées,
     les sorties ??? etc
 
+# Compte Rendu Visio Laeticia 26/11
 
+### Général
 
+-   zero shot = besoin d'info auxiliaire type texte (--\> CLIP
+    text-to-image), pas ici
 
-    
-    
-- zero shot = besoin d'info auxiliaire type texte (--> CLIP text-to-image), pas ici 
+-   regarder ce que c'est un ViT ? ce que c'est un ViT
 
-- regarder ce que c'est un ViT ? ce que c'est un ViT
+-   regarder comment la hiérarchie se comporte
 
-- regarder comment la hiérarchie se comporte
+-   prendre un jeu de donnée random et tester le code --\> voir output
 
-- prendre un jeu de donnée random et tester le code --> voir output
+-   comment les classes s'organisent dans l'espace latent ? comment se
+    structure ce nouvel espace ? remonte ?
 
-- comment les classes s'organisent dans l'espace latent ? comment se structure ce nouvel espace ? remonte ? 
+# Compte Rendu Reu Team HIVE 02/12
 
-- 
+### Général
+
+Projet dans projet : on se place au début d'un projet de grande ampleur
+et on "défriche" un peu le terrain en cherchant des trucs qui marchent
+dans le but d'une automatisation et généralisation plus tard
+
+-   Questions : quelle bestioles sont presente et quelle bestioles sont
+    dangereuses ?
+
+-   Plusieurs méthodes d'échantillonages/récolte d'info :
+    « morphologique » (capture + observation) ou via adn (broyage
+    environnement) : nous on va regarder la morpho
+
+Nous on se place dans la situation pre broyage : on veut maximiser les
+capa d’iddentification de la bestiole
+
+-   Certaines bestioles sont des marqueurs de biodiversité : en trouver
+    moins est pas bon → les carabes ??
+
+-   Dans BioClip2 : taxons pas tous égaux en termes de nombres d’image :
+    certains taxons très bien représenté, acuracy sur chaque dataset
+    différents
+
+### Questions ?
+
+QUESTIONS IMPORTANTES A FOCUS :
+
+-   IMPACT DE LA HIERARCHIE SUR LES PERF : comment l’intégrer ? Qu’est
+    ce que ca apporte ?
+
+-   comment se positionne bioclip2 dans la problématqiue de nos
+    bestioles ?
+
+-   fine tuning ? Est qu’un ViT sans hiérarchie ca marche ?
+    (structuration des données, espaces des données??)
+
+-   explicabilité ? Sur quoi s’appuie le modèle pour prendre des
+    decisions ? ON VEUT : un modèles spécialisé interesse tt les
+    domaines, et chaque domaine et spécialisation ont leur manière de
+    prendre des décision (experts regardent les mandibules pour troiver
+    espèces, etc)
+
+Nouvelles données :
+
+-   downstream tasks ? Question de la robustesse via diversité puis
+    downstream sur ta tache de base pour l’affiner et rajouter
+    raisonnement et connaissances → modèles fondateur utilisé comme base
+    avant spécialisation à une tâche précise
+
+-   comparer spécificité / robustesse / précision ?? → pour certaines
+    taches
+
+    → centralité de la question à porter sur la hiérarchie → comment
+    l’évaluer correctement (métrique) + impact de la rajouter ou de
+    l’enlever etc
+
+-   Question de la structuration de l’espace pour la compréhension : IA
+    explicable → on a qqch qui marche mais qui sait pas expliquer
+    comment et pk il marche
+
+### Tâches
+
+Tâche 1 : Concrête, avancer le code pas à pas
+
+DANS UN PREMIER TPS : EVALUER au niveau des espèces
+
+-   Récupérer les données : faire un parceur --\> répertoire avec
+    iddentifiant unique GBIF a récupérer (API????) =\> 291 espèce, 180
+    genres, … tribut, 1 famille (biais car viens du british museum,
+    empire colonial ??)
+
+-   on lui file que les espèces et on inferera des classes après
+    seulement, car on connaît la taxonomie nous de notre coté → évaluer
+    ca d’abord
+
+-   papier sur les données des danois sur les carabes : ils ont fais
+    avec CNN → on doit tester avec ViT / contrastive learning / loss
+    contrastive / etc → résultats du papier sur ces données battu par
+    nimporte quel modele moderne : tester avec un ViT a plat + d'autres
+    choses plus modernes pour monter la précision → pas aussi diversifié
+    que les jeux de données qu’on voudrait dans le gros projet mais un
+    bon jeu de données pour jouer et tester des choses
+
+ENSUITE
+
+-   méthodo : petit exemple, petit a petit, pour façonner un modèle et
+    arriver à qqch qui tourne bien sur du petit
+
+-   comparer perf au papier original, évaluer avec differente metriques
+    --\> trouver quelles métriques ?
+
+-   attention a la balance des classes : devrait etre ok mais à verifier
+
+Tâche 2 : Théorique, compréhension du modèle a fond
+
+-   Question de la gestion des classes unbalanced : est ce que BioClip /
+    BioClip2 le fait ? comment ?
+
+-   La loss fct : qu'est ce qu'elle fait concretement ? comment elle
+    marche ? Question des espaces de départ et d'arrivée (latent ?)
+
+-   Question du few shot : comprendre comment ca marche et comment
+    l’appliquer : comment placer dans l’espace en rajoutant des images
+    few ??
+
+-   A FAIRE : GRAND SCHEMA RECAP DU MODELE AVEC LES "MODULES"
+    (encodeurs, double projecteur, etc)
+
+### Bonus
+
+Problème des calcules et allocation de GPU :
+
+-   réseau «matrice»: informatitien du CNRS, abonnement pour les calculs
+    ?
