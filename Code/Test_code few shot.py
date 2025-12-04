@@ -20,12 +20,6 @@ tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 
 
 def few_shot_classification(model, support_images, support_labels, query_images):
-    """
-    model: Le modèle BioClip 2 (ViT)
-    support_images: Vos 15 images d'exemples (3 classes * 5 images)
-    support_labels: Les labels correspondants [0, 0, 0, 0, 0, 1, 1, ..., 2]
-    query_images: Les images inconnues à classer
-    """
     
     # 1. Extraction des Embeddings (Le modèle est gelé avec torch.no_grad())
     with torch.no_grad():
@@ -81,7 +75,7 @@ if __name__ == "__main__":
     candidate_labels = ["grass-hopper", "mantis religiosa", "bee", "dog", "butterfly", "Danaus plexippus", "beetle", "Animalia Arthropoda Insecta Lepidoptera Nymphalidae Danaus Plexippus"]
 
     # Pred zeroshot
-    result = predict_image_zero_shot(image_path, candidate_labels)
+    result = predict_image_few_shot(image_path, candidate_labels)
     print(f"Image: {os.path.basename(image_path)}  Predictions:")
     for label, p in result:
         print(f"   {label}: {p:.4f}")

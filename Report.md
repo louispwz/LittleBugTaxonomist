@@ -159,12 +159,13 @@ DANS UN PREMIER TPS : EVALUER au niveau des espèces
     ca d’abord
 
 -   papier sur les données des danois sur les carabes : ils ont fais
-    avec CNN → on doit tester avec ViT / contrastive learning / loss
-    contrastive / etc → résultats du papier sur ces données battu par
-    nimporte quel modele moderne : tester avec un ViT a plat + d'autres
-    choses plus modernes pour monter la précision → pas aussi diversifié
-    que les jeux de données qu’on voudrait dans le gros projet mais un
-    bon jeu de données pour jouer et tester des choses
+    avec CNN 
+
+    → on doit tester avec ViT / contrastive learning / loss contrastive / etc 
+    
+    → résultats du papier sur ces données battu par nimporte quel modele moderne : tester avec un ViT a plat + d'autres choses plus modernes pour monter la précision 
+    
+    → pas aussi diversifié que les jeux de données qu’on voudrait dans le gros projet mais un bon jeu de données pour jouer et tester des choses
 
 ENSUITE
 
