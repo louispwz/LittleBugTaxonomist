@@ -7,28 +7,14 @@ import json
 
 # verifie si GPU disponible (mais moi je n'ai pas)
 device = "cuda" if torch.cuda.is_available() else "cpu"
+
 # Charge le modele et le preprocess
 model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
 model.to(device)
+
 # Tokenizer pour transformer du texte en embedding (on utilise pas ici mais c'est dans le code exemple)
 tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 
-###################
-# Get unique names
-###################
-    with open("metadata_images.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    unique_names_list = set()
-
-    for bugs in data:
-        name = bugs.get("name")
-        if name is not None:
-            unique_names_list.add(name)
-
-    unique_names = sorted(list(unique_names_list))
-
-    print(unique_names)
 
 # Fonction pour pred en zero-shot
 def predict_image_zero_shot(image_path, candidate_labels): # en entrée une image et des candidats potentiels
@@ -85,3 +71,13 @@ if __name__ == "__main__":
     
 
 
+    # Load the JSON file
+    with open("metadata_images.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Extract unique names
+    unique_names = sorted(
+    {item.get("name") for item in data if item.get("name") is not None}
+)
+
+    print(unique_names)

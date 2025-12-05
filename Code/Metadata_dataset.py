@@ -45,7 +45,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"Fini : {len(results)} dans {out_path}")
+    print(f"Fini : {len(results)} dans le fichier {out_path}")
 
 if __name__ == "__main__":
     main()
