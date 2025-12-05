@@ -3,13 +3,13 @@ from PIL import Image
 import open_clip
 import torch
 import torch.nn.functional
+import json
 
 # verifie si GPU disponible (mais moi je n'ai pas)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Charge le modele et le preprocess
-model, _, preprocess = open_clip.create_model_and_transforms(
-    'hf-hub:imageomics/bioclip-2')
+model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
 model.to(device)
 
 # Tokenizer pour transformer du texte en embedding (on utilise pas ici mais c'est dans le code exemple)
@@ -54,12 +54,12 @@ def predict_image_zero_shot(image_path, candidate_labels): # en entrée une imag
 
 if __name__ == "__main__":
     # image
-    # image_path = "Code/Test_images/images_raw/00014500.jpg"
+    image_path = "Code/Test_images/images_raw/00014500.jpg"
     # image_path = "Code/Test_images/images_raw/00013600.jpg"
-    image_path = "Code/Test_images/images_raw/00000053.jpg"
+    # image_path = "Code/Test_images/images_raw/00000053.jpg"
 
     # Liste des labels candidats un peu mis au hasard mais on peut le changer si on sait ce qu'on fait
-    candidate_labels = ["grass-hopper", "mantis religiosa", "bee", "dog", "butterfly", "Danaus plexippus", "beetle", "Animalia Arthropoda Insecta Lepidoptera Nymphalidae Danaus Plexippus"]
+    candidate_labels = ["grass-hopper", "mantis religiosa", "bee", "dog", "Danaus plexippus", "beetle"]
 
     # Pred zeroshot
     result = predict_image_zero_shot(image_path, candidate_labels)
@@ -69,3 +69,15 @@ if __name__ == "__main__":
     best_label, best_prob = result[0]
     print(f"Cette image est predite comme '{best_label}'")
     
+
+
+    # Load the JSON file
+    with open("metadata_images.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Extract unique names
+    unique_names = sorted(
+    {item.get("name") for item in data if item.get("name") is not None}
+)
+
+    print(unique_names)
