@@ -3,20 +3,20 @@ import os
 import json
 import requests
 
-def get_species_name(folder_id, session):
-    # recup le json des especes par gbif
+def get_species_info(taxon_id, session):
     try:
-        r = session.get(f"https://api.gbif.org/v1/species/{folder_id}/name", timeout=0)
-        return r.json() 
-    except Exception:
+        r = session.get(f"https://api.gbif.org/v1/species/{taxon_id}", timeout=1)
+        return r.json() if r.status_code == 200 else None
+    except:
         return None
 
+
 def main():
-    tar_path = os.path.join(os.path.dirname(__file__), "Test_images", "database.tar")
-    out_path = "Code/metadata_images.json"
+    tar_path = os.path.join("Data/database.tar")
+    out_json_path = "Data/metadata_images.json"
 
     if not os.path.exists(tar_path):
-        print("Archive introuvable :", tar_path)
+        print("archive non trouvée")
         return
 
     session = requests.Session()
@@ -26,26 +26,29 @@ def main():
         for m in tar.getmembers():
             if not m.isfile() or m.name.count("/") < 1:
                 continue
-            
+
+            print(f"ficher {m}")
             folder = m.name.split("/")[-2]
+
             try:
-                folder_id = int(folder)
-                gbif_data = get_species_name(folder_id, session)
+                taxon_id = int(folder)
             except ValueError:
-                folder_id = None
-                gbif_data = None
+                taxon_id = None
+                info = None
+            else:
+                info = get_species_info(taxon_id, session)
 
             results.append({
-                "name": gbif_data.get("scientificName") if gbif_data else None,
-                "folder_number": folder_id,
+                "folder_number": taxon_id,
                 "archive_path": m.name,
-                "gbif": gbif_data
+                "gbif": info
             })
 
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(out_json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"Fini : {len(results)} dans le fichier {out_path}")
+    print(f"Fini : {len(results)} dans le fichier {out_json_path}")
+
 
 if __name__ == "__main__":
     main()

@@ -196,5 +196,17 @@ Tâche 2 : Théorique, compréhension du modèle a fond
 
 Problème des calcules et allocation de GPU :
 
--   réseau «matrice»: informatitien du CNRS, abonnement pour les calculs
-    ?
+-   réseau «matrice»: informatitien du CNRS, abonnement pour les calculs ?
+    
+# Compte Rendu réu init 08 / 12
+
+- Lire bioclip pour plus d'explicabilité sur la construction du modele 
+
+- voir si on trouve une certaine ponderation dans la validation (evaluation fine) 
+
+- si je met une hierarchie qui combine des taxons, comment il le gere ? si c'est de la simalirité dans les images / dans le texte.
+Tester en apprenant sur une taxonomie qui ne marche pas
+
+tester avec un dataset et permutter les fins de taxons pour voir l'impact de la hierarchie
+
+- faire des premieres campagnes d'evaluation. faire un code sur les differentes accuracy n-1 et n-2

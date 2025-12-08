@@ -16,15 +16,15 @@ tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 ###################
 # Get unique names
 ###################
-    with open("metadata_images.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+with open("metadata_images.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-    unique_names_list = set()
+unique_names_list = set()
 
-    for bugs in data:
-        name = bugs.get("name")
-        if name is not None:
-            unique_names_list.add(name)
+for bugs in data:
+    name = bugs.get("name")
+    if name is not None:
+        unique_names_list.add(name)
 
     unique_names = sorted(list(unique_names_list))
 
