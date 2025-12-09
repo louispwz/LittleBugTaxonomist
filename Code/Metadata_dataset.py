@@ -33,7 +33,7 @@ def extract_metadata_from_tar(tar_path, out_json_path=None):
             
             file_counter += 1
             if file_counter % 500 == 0:
-                print(f"parsé {file_counter} fichiers")
+                print(f"{file_counter} fichiers parsés")
 
             folder = m.name.split("/")[-2]
             try:
@@ -55,6 +55,7 @@ def extract_metadata_from_tar(tar_path, out_json_path=None):
         with open(out_json_path, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
+    print(f"Metadata extraite pour {len(results)} fichiers")
     return results
 
 

@@ -10,7 +10,7 @@ import torch
 import torch.nn.functional
 import json
 from Dataset_shrinker import dataset_shrinker
-from Data.Metadata_dataset import extract_metadata_from_tar
+from Metadata_dataset import extract_metadata_from_tar
 
 
 ############################
@@ -30,15 +30,6 @@ tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 #############################
 #Recuperation des candidats #
 #############################
-
-
-
-
-
-
-
-
-
 
 
 # Fonction pour pred en zero-shot
@@ -80,20 +71,26 @@ def predict_image_zero_shot(image_path, candidate_labels): # en entrée une imag
 if __name__ == "__main__":
     
     # petit dataset
-    dataset_small = dataset_shrinker(input_tar="Data/database.tar",n_folders=50,n_files=50, output_tar="Data/small_database.tar", seed = 123)
+    # dataset_small = dataset_shrinker(input_tar="Data/database.tar",n_folders=50,n_files=50, output_tar="Data/small_database.tar", seed = 123)
     # json du dataset
-    metadata = extract_metadata_from_tar(tar_path="Data/small_database.tar", out_json_path="Data/small_metadata_images.json")
-
+    # metadata = extract_metadata_from_tar(tar_path="Data/small_database.tar", out_json_path="Data/small_metadata_images.json")
     
-#     # Load the JSON file
-# with open("Data/metadata_images.json", "r", encoding="utf-8") as f:
-#     metadata = json.load(f)
+    # load le json metadata
+    with open("Data/small_metadata_images.json", "r", encoding="utf-8") as f:
+        metadata_json = json.load(f)
 
-# # Extract unique names
-# unique_candidate = set()
-# for bugs in metadata : 
-#     bug_info = bugs.get()
-# print(unique_names)
+    unique_candidate = set()
+
+    # extrait tout les noms uniques
+    for bug in metadata_json:
+        gbif_info = bug.get("gbif")
+        if gbif_info is not None:
+            canonical_name = gbif_info.get("canonicalName")
+            if canonical_name is not None:
+                unique_candidate.add(canonical_name)
+
+    print(unique_candidate)
+    print(len(unique_candidate))
 
 
     # # Pred zeroshot
