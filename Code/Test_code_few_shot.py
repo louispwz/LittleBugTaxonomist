@@ -4,7 +4,7 @@ import open_clip
 import torch
 import torch.nn.functional as F
 
-# verifie si GPU disponible (mais moi je n'ai pas)
+# verifie si GPU disponible
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Charge le modele et le preprocess
