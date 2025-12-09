@@ -37,14 +37,14 @@ def charger_dataset_few_shot(root_dir, n_shot):
     
     for cls_name in classes:
         cls_path = os.path.join(root_dir, cls_name)
-        # Récupère les images 
+        # On récupère les images 
         files = [f for f in os.listdir(cls_path) if f.lower().endswith(('.jpg'))]
         files.sort()
         random.shuffle(files)
             
-        # Séparation (Splitting)
-        files_support = files[:n_shot]      # Les 5 premières
-        files_query = files[n_shot:]        # Les 2 restantes (ou plus)
+        # Séparation support / query
+        files_support = files[:n_shot]                      # les 5 premières
+        files_query = files[n_shot:]                        # le reste
         
         cls_idx = class_to_idx[cls_name]
         
@@ -78,22 +78,22 @@ def charger_dataset_few_shot(root_dir, n_shot):
         classes
     )
 
-# 3. La Fonction de Classification (Votre logique)
+# Fonction de classification
 def few_shot_classification(model, support_images, support_labels, query_images):
     """
     Classifie les query_images en comparant leur distance avec les prototypes des support_images.
     """
-    with torch.no_grad(): # Pas de calcul de gradient (économie mémoire)
+    with torch.no_grad():                       # Pas de calcul de gradient
         
-        # A. Encodage (Extraction des caractéristiques)
-        # BioCLIP transforme l'image en vecteur de 768 dimensions [cite: 880]
+        # Encodage (extraction des caractéristiques)
+        # BioCLIP transforme l'image en vecteur à 768 dimensions
         support_features = model.encode_image(support_images)
         support_features = F.normalize(support_features, dim=-1)
         
         query_features = model.encode_image(query_images)
         query_features = F.normalize(query_features, dim=-1)
 
-    # B. Création des Prototypes
+    # Prototypes
     unique_classes = torch.unique(support_labels)
     unique_classes = sorted(unique_classes.tolist()) # S'assurer que l'ordre est 0, 1, 2...
     prototypes = []
@@ -110,27 +110,27 @@ def few_shot_classification(model, support_images, support_labels, query_images)
         
     prototypes = torch.stack(prototypes) # Taille : [Nb_Classes, 768]
 
-    # C. Calcul de Similarité (Cosine Similarity)
+    # Calcul de similarité cosinus
     # Matrice de scores : [Nb_Query, Nb_Classes]
     similarities = torch.matmul(query_features, prototypes.T)
     
-    # D. Prédiction
+    # Prédiction
     predictions = torch.argmax(similarities, dim=1)
     
     return predictions
 
-# --- EXÉCUTION PRINCIPALE ---
+# On exécute le tout
 
 if __name__ == "__main__":
-    # 1. Préparer les données
+    # On prépare les données
     sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, N_SHOT)
     
     print(f"\nLancement de la classification 5-shot sur {len(qry_lbl)} images de test...")
     
-    # 2. Lancer la classification
+    # On lance la classification
     preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
     
-    # 3. Calculer la précision
+    # On calculer la précision
     correct = (preds == qry_lbl).sum().item()
     total = len(qry_lbl)
     accuracy = correct / total * 100
@@ -139,10 +139,10 @@ if __name__ == "__main__":
     print(f"RÉSULTAT FINAL : {accuracy:.2f}% de précision")
     print("-" * 30)
     
-    # 4. Détail par image
+    # Détail par image
     print("\nDétails des prédictions :")
     for i in range(total):
         vrai_nom = class_names[qry_lbl[i]]
         pred_nom = class_names[preds[i]]
-        statut = "✅" if preds[i] == qry_lbl[i] else "❌"
+        statut = "Correct" if preds[i] == qry_lbl[i] else "False"
         print(f"Image {i+1} ({vrai_nom}) -> Prédit : {pred_nom} {statut}")
