@@ -14,7 +14,7 @@ def get_species_info(taxon_id, session):
         # Si le code retour est 200 (OK), on renvoie les données, sinon Rien (None)
         return r.json() if r.status_code == 200 else None
     except:
-        # Si ça plante, on renvoie None pour ne pas bloquer le script
+        # Si ça plante on renvoie None pour ne pas bloquer le script
         return None
 
 # ----- Fonction principale (extraire et compiler données .tar + API) -----
@@ -30,7 +30,7 @@ def main():
 
     # Création d'une "session" (optimise la connexion pour faire plusieurs appels de suite)
     session = requests.Session()
-    results = []       # Liste vide qui va stocker nos découvertes
+    results = []       # Liste vide qui va stocker ce qu'on cherche
 
     # Ouverture de l'archive en mode lecture ("r:*")
     with tarfile.open(tar_path, "r:*") as tar:
@@ -45,8 +45,8 @@ def main():
             print(f"ficher {m}")  # Affiche l'objet fichier en cours de traitement
 
             # _____ Extraction de l'ID ______
-            # m.name ressemble à "dossier/12345/image.jpg"
-            # split("/") coupe le chemin en morceaux. [-2] prend l'avant-dernier morceau (le dossier parent)
+            # m.name = qqch comme "data/2435098/img01.jpg"
+            # split("/") coupe le chemin en morceaux et [-2] prend l'avant-dernier morceau (le dossier parent)
             folder = m.name.split("/")[-2]
 
             try:
@@ -62,9 +62,9 @@ def main():
 
             # On ajoute les infos trouvées dans notre liste de résultats
             results.append({
-                "folder_number": taxon_id, # L'ID (ex: 2435098)
-                "archive_path": m.name,    # Le chemin interne (ex: "data/2435098/img01.jpg")
-                "gbif": info               # # Les infos scientifiques reçues de l'API
+                "folder_number": taxon_id, # L'ID (ex 2435098)
+                "archive_path": m.name,    # Le chemin interne (ex data/2435098/img01.jpg)
+                "gbif": info               # Les autres ifo reçues de l'API
             })
 
 # _______ Sauvegarde _______

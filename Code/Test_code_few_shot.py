@@ -15,6 +15,7 @@ model.to(device)
 # Tokenizer pour transformer du texte en embedding (on utilise pas ici mais c'est dans le code exemple)
 tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip-2')
 
+# ----- préparation de la base de données few-shot -----
 
 
 
