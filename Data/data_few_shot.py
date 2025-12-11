@@ -20,6 +20,26 @@ NB_IMAGES_PAR_ESPECE = 7
 SEED_VALUE = 42 
 
 def create_5shot_dataset():
+    
+    # Netoyage 
+    if os.path.exists(output_base_dir):
+        print(f"Suppression du contenu de '{output_base_dir}'")
+        # On liste tout ce qu'il y a dans le dossier
+        for filename in os.listdir(output_base_dir):
+            file_path = os.path.join(output_base_dir, filename)
+            try:
+                # Si c'est un fichier on supprime
+                if os.path.isfile(file_path) or os.path.islink(file_path):
+                    os.unlink(file_path)
+                # Si c'est un dossier on supprime tout l'arbre
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+            except Exception as e:
+                print(f"Erreur lors de la suppression de {file_path} : {e}")
+                return 
+        print("Contenu supprimé")
+    
+    
     random.seed(SEED_VALUE)
 
     # Préparation des noms cibles
@@ -65,12 +85,12 @@ def create_5shot_dataset():
                 images_dispos = images_par_espece[espece_nom]
                 nb_dispo = len(images_dispos)
                 
-                print(f"--- Espèce : {espece_nom} ({nb_dispo} images) ---")
+                print(f"Espèce : {espece_nom} ({nb_dispo} images)")
 
                 if nb_dispo < NB_IMAGES_PAR_ESPECE:
                     selection = images_dispos 
                 else:
-                    # IMPORTANT : on trie la liste avant de piocher au hasard car si l'ordre de lecture du JSON change, l'aléatoire change aussi
+                    # On trie la liste avant de piocher au hasard car si l'ordre de lecture du JSON change, l'aléatoire change aussi
                     # Le tri garantit que la liste est TOUJOURS dans le même ordre avant le tirage.
                     images_dispos.sort() 
                     
