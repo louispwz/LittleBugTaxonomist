@@ -75,7 +75,7 @@ def create_5shot_dataset():
 
     print(f"Lecture terminée. {ignored_count} entrées ignorées (données incomplètes).")
     # Extraction depuis le TAR
-    mode = 'r:gz' if tar_file_path.endswith('.gz') else 'r'
+    mode = 'r' if tar_file_path.endswith('.tar') else 'r:gz'
 
     try:
         with tarfile.open(tar_file_path, mode) as tar:
