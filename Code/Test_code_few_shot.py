@@ -10,7 +10,7 @@ N_SHOT = 5
 SEED = 42   
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Utilisation de : {device}")
+print(f"Use of {device}")
 
 # On charge le modele et le preprocess
 model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
@@ -19,10 +19,10 @@ model.eval()                                       # on met le modèle en mode �
 
 # Préparation des données
 def charger_dataset_few_shot(root_dir, n_shot):
-    """
-    Parcourt les dossiers, sépare les images en Support (n_shot) et Query (le reste).
-    Renvoie des Tensors prêts pour le modèle.
-    """
+    
+    # Parcourt les dossiers, sépare les images en Support (n_shot) et Query (le reste)
+    # Renvoie des Tensors prêts pour le modèle
+    
     random.seed(SEED)
     
     classes = sorted([d for d in os.listdir(root_dir) if os.path.isdir(os.path.join(root_dir, d))])
@@ -33,7 +33,7 @@ def charger_dataset_few_shot(root_dir, n_shot):
     query_imgs = []
     query_labels = []
     
-    print(f"\nPréparation des données ({len(classes)} espèces trouvées) :")
+    print(f"Data {len(classes)} species :")
     
     for cls_name in classes:
         cls_path = os.path.join(root_dir, cls_name)
@@ -68,7 +68,7 @@ def charger_dataset_few_shot(root_dir, n_shot):
 
     # Conversion en gros Tensors PyTorch
     if not support_imgs:
-        raise ValueError("Aucune image n'a été chargée. Vérifiez vos dossiers.")
+        raise ValueError("No support images found")
 
     return (
         torch.stack(support_imgs).to(device),
@@ -80,9 +80,9 @@ def charger_dataset_few_shot(root_dir, n_shot):
 
 # Fonction de classification
 def few_shot_classification(model, support_images, support_labels, query_images):
-    """
-    Classifie les query_images en comparant leur distance avec les prototypes des support_images.
-    """
+    
+    # Classifie les query_images en comparant leur distance avec les prototypes des support_images
+    
     with torch.no_grad():                       # Pas de calcul de gradient
         
         # Encodage (extraction des caractéristiques)
@@ -125,24 +125,55 @@ if __name__ == "__main__":
     # On prépare les données
     sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, N_SHOT)
     
-    print(f"\nLancement de la classification 5-shot sur {len(qry_lbl)} images de test...")
+    print(f"5-shot classification with {len(qry_lbl)} test")
     
-    # On lance la classification
+    # Classification
     preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
     
-    # On calculer la précision
+    # Acuracy
     correct = (preds == qry_lbl).sum().item()
     total = len(qry_lbl)
     accuracy = correct / total * 100
     
-    print("-" * 30)
-    print(f"RÉSULTAT FINAL : {accuracy:.2f}% de précision")
-    print("-" * 30)
+    print(f"Acuracy : {accuracy:.2f}%")
     
-    # Détail par image
-    print("\nDétails des prédictions :")
+    
+    # par espèce 
+    
+    # On boucle sur chaque espèce 
+    for i, class_name in enumerate(class_names):
+        # On récupère les indices des images de test appartenant à cette espèce
+        indices_espece = (qry_lbl == i).nonzero(as_tuple=True)[0]
+        
+        if len(indices_espece) > 0:
+            preds_espece = preds[indices_espece]
+            targets_espece = qry_lbl[indices_espece]
+            
+            correct_espece = (preds_espece == targets_espece).sum().item()
+            total_espece = len(indices_espece)
+            acc_espece = correct_espece / total_espece * 100
+            
+            # On regarde les erreurs
+            detail_erreurs = ""
+            if correct_espece < total_espece:
+                # Predictions fausses
+                mask_erreur = preds_espece != targets_espece
+                mauvaises_preds = preds_espece[mask_erreur]
+                
+                comptage_confusions = {}
+                for p in mauvaises_preds:
+                    nom_confus = class_names[p.item()]
+                    comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
+                
+                # On formate le texte
+                detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
+            
+            print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
+
+    # par image
+    print("Predictions")
     for i in range(total):
         vrai_nom = class_names[qry_lbl[i]]
         pred_nom = class_names[preds[i]]
         statut = "Correct" if preds[i] == qry_lbl[i] else "False"
-        print(f"Image {i+1} ({vrai_nom}) -> Prédit : {pred_nom} {statut}")
+        print(f"Image {i+1} ({vrai_nom}) -> Predict : {pred_nom} {statut}")
