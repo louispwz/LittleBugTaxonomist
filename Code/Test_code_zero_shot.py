@@ -77,7 +77,7 @@ if __name__ == "__main__":
     pred_results_path = "Data/zero_shot_predictions.json"
     
     # petit dataset
-    dataset_small = dataset_shrinker(input_tar=tar_path,n_folders=20,n_files=10, output_tar=small_tar_path)
+    dataset_small = dataset_shrinker(input_tar=tar_path,n_folders=50,n_files=10, output_tar=small_tar_path)
     # json du dataset
     metadata = extract_metadata_from_tar(tar_path=small_tar_path, out_json_path=small_metadata_path)
     
@@ -85,10 +85,9 @@ if __name__ == "__main__":
     with open(small_metadata_path, "r", encoding="utf-8") as f:
         small_metadata_json = json.load(f)
 
-    unique_candidate = set()
 
-    # extrait tout les noms uniques
     bug_metadata = {}
+    unique_candidate = set()
     for bug in small_metadata_json:
         fold_num = bug.get("folder_number")
         gbif_info = bug.get("gbif")
@@ -99,17 +98,22 @@ if __name__ == "__main__":
                 unique_candidate.add(canonical_name)
 
     unique_candidate = sorted(list(unique_candidate))
-    
-    # print(unique_candidate)
-    # print(len(unique_candidate))
-    # print(bug_metadata)
-    
-    
-    
-    # # Pred zeroshot
 
+    candidate_info = {}
+    for bug in small_metadata_json:
+        gbif_info = bug.get("gbif")
+        if not gbif_info:
+            continue
+        canonical = gbif_info.get("canonicalName")
+        if not canonical or canonical in candidate_info:
+            continue
+        candidate_info[canonical] = {
+            "genus": gbif_info.get("genus"),
+            "family": gbif_info.get("family")
+        }
 
-    session_results = []    
+    # Pred zeroshot
+    session_results = []
     with tarfile.open(small_tar_path, "r:*") as star:
         for member in star.getmembers():
             if not member.isfile():
@@ -119,7 +123,7 @@ if __name__ == "__main__":
             if len(parts) < 2:
                 continue
 
-            # folder number as integer
+            # folder number  
             folder_num = int(parts[-2])
 
             with star.extractfile(member) as bug_image:
@@ -127,11 +131,29 @@ if __name__ == "__main__":
 
             real_name = bug_metadata.get(folder_num)
 
+            # le max de vrais enfos de l'insecte
+            real_info = candidate_info.get(real_name, {}) if real_name else {}
+            real_genus = real_info.get("genus")
+            real_family = real_info.get("family")
+
+            # enrich top5 avec genus et family si dans candidate info
+            top5 = []
+            for label, prob in preds:
+                info = candidate_info.get(label, {})
+                top5.append({
+                    "label": label,
+                    "prob": prob,
+                    "genus": info.get("genus"),
+                    "family": info.get("family")
+                })
+
             session_results.append({
                 "archive_path": member.name,
                 "folder_number": folder_num,
                 "real_name": real_name,
-                "top5": [{"label": p[0], "prob": p[1]} for p in preds]
+                "real_genus": real_genus,
+                "real_family": real_family,
+                "top5": top5
             })
 
 
