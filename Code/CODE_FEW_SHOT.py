@@ -6,7 +6,7 @@ from PIL import Image
 import open_clip
 
 DATA_DIR = os.path.join('Data', 'data_few_shot')
-N_SHOT = 10
+N_SHOT = 5 
 SEED = 42   
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -171,9 +171,9 @@ if __name__ == "__main__":
             print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
 
     # par image
-    #print("Predictions")
-    #for i in range(total):
-    #    vrai_nom = class_names[qry_lbl[i]]
-    #    pred_nom = class_names[preds[i]]
-    #    statut = "Correct" if preds[i] == qry_lbl[i] else "False"
-    #    print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")
+    print("Predictions")
+    for i in range(total):
+        vrai_nom = class_names[qry_lbl[i]]
+        pred_nom = class_names[preds[i]]
+        statut = "Correct" if preds[i] == qry_lbl[i] else "False"
+        print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")

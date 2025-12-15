@@ -15,7 +15,7 @@ ESPECES_CIBLES = [
     "Elaphropus walkerianus"
 ]
 
-NB_IMAGES_PAR_ESPECE = 7
+NB_IMAGES_PAR_ESPECE = 55
 
 SEED_VALUE = 42 
 
@@ -23,7 +23,6 @@ def create_5shot_dataset():
     
     # Netoyage 
     if os.path.exists(output_base_dir):
-        print(f"Suppression du contenu de '{output_base_dir}'")
         # On liste tout ce qu'il y a dans le dossier
         for filename in os.listdir(output_base_dir):
             file_path = os.path.join(output_base_dir, filename)
@@ -35,9 +34,8 @@ def create_5shot_dataset():
                 elif os.path.isdir(file_path):
                     shutil.rmtree(file_path)
             except Exception as e:
-                print(f"Erreur lors de la suppression de {file_path} : {e}")
-                return 
-        print("Contenu supprimé")
+                print(f"Error with {file_path} : {e}")
+                return
     
     
     random.seed(SEED_VALUE)
@@ -51,7 +49,7 @@ def create_5shot_dataset():
         with open(json_file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
-        print(f"Erreur : fichier {json_file_path} introuvable.")
+        print(f"Error : file {json_file_path} not found")
         return
 
     # Remplissage du dictionnaire
@@ -73,7 +71,7 @@ def create_5shot_dataset():
         else:
             ignored_count += 1
 
-    print(f"Lecture terminée. {ignored_count} entrées ignorées (données incomplètes).")
+    print(f"Finish : {ignored_count} entries ignored (missing path or species)")
     # Extraction depuis le TAR
     mode = 'r' if tar_file_path.endswith('.tar') else 'r:gz'
 
@@ -85,7 +83,7 @@ def create_5shot_dataset():
                 images_dispos = images_par_espece[espece_nom]
                 nb_dispo = len(images_dispos)
                 
-                print(f"Espèce : {espece_nom} ({nb_dispo} images)")
+                print(f"Species : {espece_nom} ({nb_dispo} available images)")
 
                 if nb_dispo < NB_IMAGES_PAR_ESPECE:
                     selection = images_dispos 
@@ -115,12 +113,12 @@ def create_5shot_dataset():
                                 compteur_global += 1
                                 f_source.close()
                     except Exception as e:
-                        print(f"  Erreur extraction : {e}")
+                        print(f"  Error extraction : {e}")
 
-            print(f"\nTerminé ! {compteur_global} images extraites.")
+            print(f"\nFinish : {compteur_global} extracted images")
 
     except FileNotFoundError:
-        print(f"L'archive {tar_file_path} est introuvable.")
+        print(f"Archive {tar_file_path} not found.")
 
 if __name__ == "__main__":
     create_5shot_dataset()
