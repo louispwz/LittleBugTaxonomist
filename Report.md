@@ -159,13 +159,18 @@ DANS UN PREMIER TPS : EVALUER au niveau des espèces
     ca d’abord
 
 -   papier sur les données des danois sur les carabes : ils ont fais
-    avec CNN 
+    avec CNN
 
-    → on doit tester avec ViT / contrastive learning / loss contrastive / etc 
-    
-    → résultats du papier sur ces données battu par nimporte quel modele moderne : tester avec un ViT a plat + d'autres choses plus modernes pour monter la précision 
-    
-    → pas aussi diversifié que les jeux de données qu’on voudrait dans le gros projet mais un bon jeu de données pour jouer et tester des choses
+    → on doit tester avec ViT / contrastive learning / loss contrastive
+    / etc
+
+    → résultats du papier sur ces données battu par nimporte quel modele
+    moderne : tester avec un ViT a plat + d'autres choses plus modernes
+    pour monter la précision
+
+    → pas aussi diversifié que les jeux de données qu’on voudrait dans
+    le gros projet mais un bon jeu de données pour jouer et tester des
+    choses
 
 ENSUITE
 
@@ -196,17 +201,33 @@ Tâche 2 : Théorique, compréhension du modèle a fond
 
 Problème des calcules et allocation de GPU :
 
--   réseau «matrice»: informatitien du CNRS, abonnement pour les calculs ?
+-   réseau «matrice»: informatitien du CNRS, abonnement pour les calculs
+    ?
+
+# Compte Rendu réu 08 / 12
+
+-   Lire bioclip pour plus d'explicabilité sur la construction du modele
+
+-   voir si on trouve une certaine ponderation dans la validation
+    (evaluation fine)
+
+-   si je met une hierarchie qui combine des taxons, comment il le gere
+    ? si c'est de la simalirité dans les images / dans le texte. Tester
+    en apprenant sur une taxonomie qui ne marche pas
+
+tester avec un dataset et permutter les fins de taxons pour voir
+l'impact de la hierarchie
+
+-   faire des premieres campagnes d'evaluation. faire un code sur les
+    differentes accuracy n-1 et n-2
     
-# Compte Rendu réu init 08 / 12
+    
+# Compte Rendu réu 12 / 12
 
-- Lire bioclip pour plus d'explicabilité sur la construction du modele 
 
-- voir si on trouve une certaine ponderation dans la validation (evaluation fine) 
 
-- si je met une hierarchie qui combine des taxons, comment il le gere ? si c'est de la simalirité dans les images / dans le texte.
-Tester en apprenant sur une taxonomie qui ne marche pas
 
-tester avec un dataset et permutter les fins de taxons pour voir l'impact de la hierarchie
 
-- faire des premieres campagnes d'evaluation. faire un code sur les differentes accuracy n-1 et n-2
+
+
+# compte Rendu réu 18 / 12
