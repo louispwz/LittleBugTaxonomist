@@ -86,7 +86,7 @@ def few_shot_classification(model, support_images, support_labels, query_images)
     with torch.no_grad():                       # Pas de calcul de gradient
         
         # Encodage (extraction des caractéristiques)
-        # BioCLIP transforme l'image en vecteur à 768 dimensions
+        # vecteur à 768 dimensions
         support_features = model.encode_image(support_images)
         support_features = F.normalize(support_features, dim=-1)
         
@@ -176,4 +176,4 @@ if __name__ == "__main__":
         vrai_nom = class_names[qry_lbl[i]]
         pred_nom = class_names[preds[i]]
         statut = "Correct" if preds[i] == qry_lbl[i] else "False"
-        print(f"Image {i+1} ({vrai_nom}) -> Predict : {pred_nom} {statut}")
+        print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")
