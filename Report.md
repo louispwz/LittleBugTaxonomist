@@ -222,9 +222,35 @@ l'impact de la hierarchie
     differentes accuracy n-1 et n-2
     
     
-# Compte Rendu réu 12 / 12
+# Compte Rendu réu LABO 12 / 12
 
+### General 
 
+- Explication du projet aux chercheurs et inge du site qui bossent avec nous, ou on en est + enjeux pour future (these etc)
+
+- But du projet : décrassage méthodologique sur les modèle de fodatios et leur mainmise + ineficacité en cas de tâches spécifiques ? 
+
+  → Passer d'un modèle de fondation à un modèle + qualifié/spécifique
+
+  → Libérer du temps aux stagiaires/chercheurs pour la reconnaissance de l'individus lors des collectes
+  
+  → Axer le "rapport" sur méthodo/decrassage/exploration et premieres réflexions sur le fond de ces modèles de fondation (question des ressources imense necessaires a l'etrainement, souveraineté en EU etc)
+
+- Discussion autour d'améliorations de l'etrainement sur les carabes via des nouvelles méthodes de récupérations de data : shaking ? photo a 360 (theses de la doctorate) ? constructiosn possible pour etayer le modèles
+
+  → Pricipe de multivue + data multi modale pour etraiemet, discussion sur ces modalités : multivue (échelles, angles, rotations, éléments parasites ex terre, 3D, gènomes ?)
+
+### Questions 
+
+- voir pour le "je sais pas" au niveau de la feuille ? peut simuler ca ? peut le faire s'arreter au dessus ou il a tres souvent juste ? serait bien pour biologistes/stagiaires
+
+- matrice de confusion utile ici ? 
+
+- forme de sortie attendu pour nos modèle ? JSOn ? 
+
+### Tâche : 
+
+- Tester trucs au pif sur few shot pour voir ce qu'il trouve, normalement il va donner ue réponse alors que ca a pas lieu d'etre
 
 
 

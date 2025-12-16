@@ -30,7 +30,7 @@ def create_5shot_dataset():
                 # Si c'est un fichier on supprime
                 if os.path.isfile(file_path) or os.path.islink(file_path):
                     os.unlink(file_path)
-                # Si c'est un dossier on supprime tout l'arbre
+                # si c'est un dossier on supprime tout l'arbre
                 elif os.path.isdir(file_path):
                     shutil.rmtree(file_path)
             except Exception as e:

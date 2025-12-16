@@ -43,7 +43,7 @@ def charger_dataset_few_shot(root_dir, n_shot):
         random.shuffle(files)
             
         # Séparation support / query
-        files_support = files[:n_shot]                      # les 5 premières
+        files_support = files[:n_shot]                      # les n premières
         files_query = files[n_shot:]                        # le reste
         
         cls_idx = class_to_idx[cls_name]
@@ -105,7 +105,7 @@ def few_shot_classification(model, support_images, support_labels, query_images)
         
         # Moyenne (Centroïde)
         mean_feature = class_features.mean(dim=0)
-        mean_feature = F.normalize(mean_feature, dim=-1) # Renormalisation
+        mean_feature = F.normalize(mean_feature, dim=-1) # O ormalise
         prototypes.append(mean_feature)
         
     prototypes = torch.stack(prototypes) # Taille : [Nb_Classes, 768]
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # On prépare les données
     sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, N_SHOT)
     
-    print(f"5-shot classification with {len(qry_lbl)} test")
+    print(f"{N_SHOT}-shot classification with {len(qry_lbl)} test")
     
     # Classification
     preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
@@ -165,7 +165,7 @@ if __name__ == "__main__":
                     nom_confus = class_names[p.item()]
                     comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
                 
-                # On formate le texte
+                # texte
                 detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
             
             print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
