@@ -6,8 +6,8 @@ from PIL import Image
 import open_clip
 
 DATA_DIR = os.path.join('Data', 'data_few_shot')
-N_SHOT = 10
-SEED = 42   
+N_SHOT = [1, 5, 10,25,50]
+SEED = 123
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Use of {device}")
@@ -122,58 +122,60 @@ def few_shot_classification(model, support_images, support_labels, query_images)
 # On exécute le tout
 
 if __name__ == "__main__":
+    for n in N_SHOT:
+        print(f"CLASSIFICATION{n}-SHOT")
     # On prépare les données
-    sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, N_SHOT)
+        sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, n)
     
-    print(f"{N_SHOT}-shot classification with {len(qry_lbl)} test")
+        print(f"{n}-shot classification with {len(qry_lbl)} test")
     
     # Classification
-    preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
+        preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
     
     # Acuracy
-    correct = (preds == qry_lbl).sum().item()
-    total = len(qry_lbl)
-    accuracy = correct / total * 100
+        correct = (preds == qry_lbl).sum().item()
+        total = len(qry_lbl)
+        accuracy = correct / total * 100
     
-    print(f"Acuracy : {accuracy:.2f}%")
+        print(f"Acuracy : {accuracy:.2f}%")
     
     
     # par espèce 
     
     # On boucle sur chaque espèce 
-    for i, class_name in enumerate(class_names):
+        for i, class_name in enumerate(class_names):
         # On récupère les indices des images de test appartenant à cette espèce
-        indices_espece = (qry_lbl == i).nonzero(as_tuple=True)[0]
+            indices_espece = (qry_lbl == i).nonzero(as_tuple=True)[0]
         
-        if len(indices_espece) > 0:
-            preds_espece = preds[indices_espece]
-            targets_espece = qry_lbl[indices_espece]
+            if len(indices_espece) > 0:
+                preds_espece = preds[indices_espece]
+                targets_espece = qry_lbl[indices_espece]
             
-            correct_espece = (preds_espece == targets_espece).sum().item()
-            total_espece = len(indices_espece)
-            acc_espece = correct_espece / total_espece * 100
+                correct_espece = (preds_espece == targets_espece).sum().item()
+                total_espece = len(indices_espece)
+                acc_espece = correct_espece / total_espece * 100
             
             # On regarde les erreurs
-            detail_erreurs = ""
-            if correct_espece < total_espece:
+                detail_erreurs = ""
+                if correct_espece < total_espece:
                 # Predictions fausses
-                mask_erreur = preds_espece != targets_espece
-                mauvaises_preds = preds_espece[mask_erreur]
+                    mask_erreur = preds_espece != targets_espece
+                    mauvaises_preds = preds_espece[mask_erreur]
                 
-                comptage_confusions = {}
-                for p in mauvaises_preds:
-                    nom_confus = class_names[p.item()]
-                    comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
+                    comptage_confusions = {}
+                    for p in mauvaises_preds:
+                        nom_confus = class_names[p.item()]
+                        comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
                 
                 # texte
-                detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
+                    detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
             
-            print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
+                print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
 
-    # par image
-    #print("Predictions")
-    #for i in range(total):
-    #    vrai_nom = class_names[qry_lbl[i]]
-    #    pred_nom = class_names[preds[i]]
-    #    statut = "Correct" if preds[i] == qry_lbl[i] else "False"
-    #    print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")
+        # par image
+        #print("Predictions")
+        #for i in range(total):
+        #    vrai_nom = class_names[qry_lbl[i]]
+        #    pred_nom = class_names[preds[i]]
+        #    statut = "Correct" if preds[i] == qry_lbl[i] else "False"
+        #    print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")

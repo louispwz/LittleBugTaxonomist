@@ -15,7 +15,7 @@ ESPECES_CIBLES = [
     "Elaphropus walkerianus"
 ]
 
-NB_IMAGES_PAR_ESPECE = 55
+NB_IMAGES_PAR_ESPECE = 82
 
 SEED_VALUE = 42 
 
