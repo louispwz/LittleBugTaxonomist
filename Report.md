@@ -254,6 +254,40 @@ l'impact de la hierarchie
 
 
 
+# Compte rendu réu Solo Laeticia
+## Matéo
+
+### Général
+
+- Few shot + classifier logistic regression
+
+### Tâches 
+
+- Acc sur genre + feuille (espèce) pour comparer 
+
+- Acc par shot (1,5,10,..) pour voir quand arrive le plafond de perf
+
+- Etat de l'art sur ce dataset : comparaison perf des papiers sorti avec nos perf
+
+  → qui a fait quoi et avec quelle métrique
+  
+  → noter les settings experimentaux
+  
+  → Est ce qu'on est mieux ? a partir de quand ? on dépasse les papiers de quelle année ? 
+  
+- Sortir des matrices de confusions pour voir quel sont les pires 
+
+- Lui donner des trucs au pif : voir à la rentrée avec le nouveau jeu de donnée avec +de hiérarchie
+
+## Louis 
+
+### Général
+
+- 
+
+
+
+
 
 
 # compte Rendu réu 18 / 12
