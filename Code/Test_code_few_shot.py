@@ -137,6 +137,7 @@ if __name__ == "__main__":
         total = len(qry_lbl)
         accuracy = correct / total * 100
     
+        print(" iveau espece ")
         print(f"Acuracy : {accuracy:.2f}%")
     
     
@@ -179,3 +180,51 @@ if __name__ == "__main__":
         #    pred_nom = class_names[preds[i]]
         #    statut = "Correct" if preds[i] == qry_lbl[i] else "False"
         #    print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")
+        
+        print(" iveau genre ")
+        
+        # Extraction des genres + mapping
+        genres_names_list = [c.split(' ')[0] for c in class_names]
+        unique_genera = sorted(list(set(genres_names_list)))
+        
+        genus_to_idx = {g: i for i, g in enumerate(unique_genera)}
+        
+        # Conversion index espèce / index genre
+        species_id_to_genus_id = torch.tensor([genus_to_idx[g] for g in genres_names_list]).to(device)
+        
+        # Conversion de tous les labels 
+        qry_lbl_genus = species_id_to_genus_id[qry_lbl]
+        preds_genus = species_id_to_genus_id[preds]
+
+        correct_genus_global = (preds_genus == qry_lbl_genus).sum().item()
+        total_imgs = len(qry_lbl)
+        acc_genus_global = correct_genus_global / total_imgs * 100
+        
+        print(f" Accuracy : {acc_genus_global:.2f}%")
+        print("-" * 30)
+
+        # Détails par Genre 
+        for i, genus_name in enumerate(unique_genera):
+            indices_genus = (qry_lbl_genus == i).nonzero(as_tuple=True)[0]
+            
+            if len(indices_genus) > 0:
+                preds_g = preds_genus[indices_genus]
+                targets_g = qry_lbl_genus[indices_genus]
+                
+                correct_g = (preds_g == targets_g).sum().item()
+                total_g = len(indices_genus)
+                acc_g = correct_g / total_g * 100
+                
+                detail_erreurs = ""
+                if correct_g < total_g:
+                    mask_erreur = preds_g != targets_g
+                    mauvaises_preds = preds_g[mask_erreur]
+                    
+                    comptage_confusions = {}
+                    for p in mauvaises_preds:
+                        nom_confus = unique_genera[p.item()] 
+                        comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
+                    
+                    detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
+                
+                print(f"  - {genus_name:<25} : {acc_g:6.2f}% ({correct_g}/{total_g}){detail_erreurs}")
