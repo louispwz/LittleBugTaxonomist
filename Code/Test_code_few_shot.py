@@ -201,7 +201,6 @@ if __name__ == "__main__":
         acc_genus_global = correct_genus_global / total_imgs * 100
         
         print(f" Accuracy : {acc_genus_global:.2f}%")
-        print("-" * 30)
 
         # Détails par Genre 
         for i, genus_name in enumerate(unique_genera):
