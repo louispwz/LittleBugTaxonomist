@@ -77,7 +77,7 @@ if __name__ == "__main__":
     pred_results_path = "Data/zero_shot_predictions.json"
     
     # petit dataset
-    dataset_small = dataset_shrinker(input_tar=tar_path,n_folders=50,n_files=10, output_tar=small_tar_path)
+    dataset_small = dataset_shrinker(input_tar=tar_path,n_folders=100,n_files=5, output_tar=small_tar_path)
     # json du dataset
     metadata = extract_metadata_from_tar(tar_path=small_tar_path, out_json_path=small_metadata_path)
     

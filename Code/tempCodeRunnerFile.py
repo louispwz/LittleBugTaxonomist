@@ -58,7 +58,7 @@ def accuracy_genus(json_path: str) -> Tuple[float, int, int]:
 
 def _print_result(name: str, result: Tuple[float, int, int]) -> None:
 	accuracy, correct, total = result
-	print(f"{name}: {correct}/{total}.  precision = {accuracy*100:.2f}%")
+	print(f"{name}: {correct}/{total} corrects — précision = {accuracy:.4f} ({accuracy*100:.2f}%)")
 
 def print_accuracies(json_path: str, only: Optional[str] = None) -> None:
 	"""
