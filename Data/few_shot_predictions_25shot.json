@@ -1,0 +1,6158 @@
+[
+  {
+    "archive_path": "Agonum_nigrum\\d154s0107.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999502897262573,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.965422340319492e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.7064509805209127e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0210.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999253749847412,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 7.46392470318824e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.5314597590077028e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0223.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999567449092865,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00043126303353346884,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.2681551879722974e-06,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0243.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999452829360962,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.469087773235515e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.4533306114117295e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0125.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9982672929763794,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.001732081756927073,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 5.4819855677124e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0108.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9547532200813293,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.04522767663002014,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.8020453353528865e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0241.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999560117721558,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.386042201076634e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 9.777392762089221e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0127.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998074173927307,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0001923590898513794,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.759104802407819e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0119.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9997665286064148,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00023337089805863798,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.3832075751452066e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0102.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999896764755249,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0001032185900839977,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 7.413301084113755e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0100.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999983549118042,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.6413167031714693e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 5.144037196203044e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0239.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999993085861206,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 6.909551757416921e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.4192463971294274e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0198.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9997784495353699,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00022129285207483917,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.9877209922469774e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0094.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9997422099113464,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00025764649035409093,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.270755648074555e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0115.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998321533203125,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00016772514209151268,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 9.477061979623613e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0126.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999899864196777,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.0050623131974135e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 5.529782853841425e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0222.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999542236328125,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00045692012645304203,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 7.024753472251177e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0096.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999784529209137,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00021551252575591207,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.278940922754828e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0073.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998685121536255,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00013150621089152992,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.241972716480859e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0085.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999758005142212,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.420199780317489e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 7.206978125395835e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0086.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9880238175392151,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.011975890956819057,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.8831978820799122e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0227.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999946117401123,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.3847950766794384e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 9.213303009403262e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0219.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9987785220146179,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0012191376881673932,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.1711484805564396e-06,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0074.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9997745156288147,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00022542083752341568,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.50710394059206e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0233.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.8372461795806885,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.11741974204778671,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.02424369379878044,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0110.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9996973276138306,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00030267544207163155,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.6738262331728038e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0205.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999141693115234,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.586962940171361e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.7191575213691976e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0225.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9986190795898438,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0013807271607220173,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.658383581570888e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0224.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999653100967407,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.4714506909949705e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.4868946074386713e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0240.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998505115509033,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00014892243780195713,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.213641773276322e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0106.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999451637268066,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.484422217705287e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.7144835268444467e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0197.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9993181228637695,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0006818205001764,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.0677612749532273e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0216.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999656677246094,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.424104579607956e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.0964895125198382e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0079.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999527931213379,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.7252709919121116e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.4795673009568873e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0208.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999221563339233,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 7.781387103023008e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.245343466711347e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0109.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999939203262329,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 6.084001142880879e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.086348598912991e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0218.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998916387557983,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00010825911886058748,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.1172741665177455e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0072.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999599456787109,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.0077757148537785e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.231140771082664e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0238.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9986444115638733,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.000985913211479783,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.00036639347672462463,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0116.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9977056384086609,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0022934318985790014,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.5875478349444165e-07,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0237.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9982354640960693,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0013775668339803815,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0003797420358750969,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0235.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9942008256912231,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.005795532837510109,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.9855459615646396e-06,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0095.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9792512655258179,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.020747974514961243,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.789363288182358e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0101.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9976382255554199,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.002361474558711052,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.3731913617884857e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0246.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.999769389629364,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0002132261433871463,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.7212918464792892e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0202.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999762773513794,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.372883136558812e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.3081901117928396e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0201.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999122619628906,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.775771129876375e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 7.365158261052329e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0236.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9994242191314697,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0005758170736953616,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.396953924233003e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0231.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998886585235596,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00011133201769553125,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.356574377974766e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0207.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9997110962867737,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00028884096536785364,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.1438983982259288e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0077.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998862743377686,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00011370352876838297,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.9285653074518905e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0091.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9989640712738037,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0010359114967286587,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 2.0640131381810534e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0245.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999171495437622,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.28591946628876e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.4031960300117134e-09,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0211.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9995693564414978,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00041733565740287304,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.2564810276671778e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0088.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9998857975006104,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00011422167881391943,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.8788216133743845e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0124.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.998210072517395,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0017890076851472259,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 9.035816788127704e-07,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Agonum_nigrum\\d154s0080.jpg",
+    "folder_number": 0,
+    "real_name": "Agonum_nigrum",
+    "real_genus": "Agonum_nigrum",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.9999381303787231,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 6.17275363765657e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.534632035481991e-08,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0279.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9956430196762085,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.003031698288396001,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0011580216232687235,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0347.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.983087956905365,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.011451175436377525,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.005134036298841238,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0200.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9702901840209961,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.02360418252646923,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.005677204579114914,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0463.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.995678722858429,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00331036071293056,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0009334167116321623,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0481.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9923997521400452,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.007261153310537338,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.00027549389051273465,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0381.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9817419648170471,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.018154781311750412,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.34260504739359e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0393.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9991764426231384,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.00029769589309580624,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0002847208525054157,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0284.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9997527003288269,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.000225175273953937,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 1.1705263204930816e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0288.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.999625563621521,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0003236069460399449,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.429553908063099e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0265.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.999707043170929,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.00013984867837280035,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 8.209182851715013e-05,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0090.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9716778993606567,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.02519819140434265,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0020833280868828297,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0332.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9609653949737549,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.02640625648200512,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.011916770599782467,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0236.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9983818531036377,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0010996436467394233,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0004218628746457398,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0058.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9861111640930176,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.012083733454346657,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0013743049930781126,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0282.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9966002106666565,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0025197588838636875,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0007944819517433643,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0091.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9976999163627625,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0008109590853564441,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0007646380690857768,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0379.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.8838356733322144,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.10831247270107269,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0063524385914206505,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0209.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9997771382331848,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00021352243493311107,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 7.3469177550578024e-06,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0283.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.998380184173584,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0013532122829928994,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00015426301979459822,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0210.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9978083968162537,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.002127520041540265,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 4.702384103438817e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0167.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9986670017242432,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0006950326496735215,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0005868858424946666,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0529.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.981533944606781,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.012648407369852066,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.004959010053426027,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0204.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9992105960845947,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0006729518063366413,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 8.178106509149075e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0166.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9219679832458496,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.055022332817316055,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.021065108478069305,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0535.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9210414886474609,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06909313052892685,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.006293422542512417,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0138.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.980599582195282,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.010146867483854294,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.008608710020780563,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0385.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9844024181365967,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.013732177205383778,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.001516034360975027,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0116.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9432888031005859,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.04633011296391487,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.010327240452170372,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0017.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9958088397979736,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.002370055764913559,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0016215238720178604,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0528.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9640995264053345,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.01704666204750538,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.016497377306222916,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0472.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9361552000045776,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06062719598412514,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0016670485492795706,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0334.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9953874945640564,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0026323047932237387,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0018148920498788357,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0491.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.6828591823577881,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.28222528100013733,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.032384805381298065,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0227.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9985588192939758,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0009077861905097961,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00046477103023789823,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0254.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9992188215255737,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0005771852447651327,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0001311142841586843,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0117.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.39686453342437744,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.30922937393188477,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.29388248920440674,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0488.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.6715202331542969,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2152719795703888,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.09307672083377838,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0450.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9985350370407104,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0009193414589390159,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00033749022986739874,
+        "genus": "Agonum_nigrum",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0447.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9806038737297058,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.014523031190037727,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.004595011472702026,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0475.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9682083129882812,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.02910182625055313,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0022820932790637016,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0451.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9735833406448364,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.012789884582161903,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.008655059151351452,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0266.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9957305788993835,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0034819780848920345,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0007476665778085589,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0093.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9933493733406067,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.004887956194579601,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0017485815333202481,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0457.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.6845740675926208,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2478512078523636,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.06686926633119583,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0469.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9850848317146301,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.014599528163671494,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.000286051828879863,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0368.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9950942993164062,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0019692559726536274,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.001808829023502767,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0232.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9998286962509155,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00011550243652891368,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 3.6142599128652364e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0308.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9935665726661682,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.006087368354201317,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00027677271282300353,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0022.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9950071573257446,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.004879593383520842,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 6.372540519805625e-05,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0309.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9969966411590576,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0024228794500231743,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00038725315243937075,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0119.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9446691274642944,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.04104766249656677,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.013876231387257576,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0485.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9785973429679871,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.014211144298315048,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.005101352464407682,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0207.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9972947239875793,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0026832991279661655,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.7265680071432143e-05,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0054.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9983676075935364,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.000746456382330507,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0006502566393464804,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0287.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9717782139778137,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.01834818534553051,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.009144547395408154,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0483.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9515844583511353,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.04543077200651169,
+        "genus": "Agonum_nigrum",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0016449345275759697,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Bembidion_clarkei\\d084s0335.jpg",
+    "folder_number": 1,
+    "real_name": "Bembidion_clarkei",
+    "real_genus": "Bembidion_clarkei",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.76872718334198,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.13369180262088776,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.09750479459762573,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0001.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9275444149971008,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.045122358947992325,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.027332622557878494,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0169.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9770102500915527,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.022214828059077263,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0007746042683720589,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0176.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9739061594009399,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.021128898486495018,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.004816841799765825,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0223.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.93473881483078,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.06525202095508575,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 9.098323062062263e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0210.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9912925362586975,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.008193054236471653,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0005135046085342765,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0177.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.3796248435974121,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.35096168518066406,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.2693771719932556,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0197.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9834235906600952,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.01629251427948475,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0002836109488271177,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0194.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5701546669006348,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.26376044750213623,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.16591307520866394,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0275.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.7471663951873779,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.24930888414382935,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0035237371921539307,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0170.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9969989061355591,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.002949594520032406,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.139505083207041e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0279.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.970789909362793,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.024557480588555336,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.004647779278457165,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0262.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9621670246124268,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.03781823068857193,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.4794282833463512e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0117.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.8756730556488037,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.09042106568813324,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.03387254476547241,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0272.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.8120763301849365,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.18779830634593964,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00012528720253612846,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0239.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.8859846591949463,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.11400024592876434,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.5124341189221013e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0278.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9006314873695374,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.09052016586065292,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.008832983672618866,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0025.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.8836599588394165,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.10231838375329971,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.01399214193224907,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0240.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9713996052742004,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.02857474610209465,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.55676332017174e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0188.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9886590838432312,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.01133848074823618,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.4474325073242653e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0118.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9191197156906128,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.04732935130596161,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.03351956978440285,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0167.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9229782819747925,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.07698101550340652,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.0690534660825506e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0207.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9139401912689209,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.08598484098911285,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 7.496659236494452e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0184.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.7427300214767456,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.157088965177536,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.10017229616641998,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0054.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9809153079986572,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.013910897076129913,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.004920544568449259,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0225.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.6909144520759583,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.24876123666763306,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.06025685369968414,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0271.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9813867211341858,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.017566515132784843,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.001039578695781529,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0078.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9630764722824097,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.033254463225603104,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0036453125067055225,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0185.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.803837239742279,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.16976571083068848,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.02638152427971363,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0180.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.814251184463501,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.18537062406539917,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00037807971239089966,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0234.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9928741455078125,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.007124114315956831,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.771051302057458e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0157.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9648243188858032,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.03515445068478584,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.1227509932941757e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0182.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9633236527442932,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.03667187690734863,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.483364136831369e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0082.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5584182143211365,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.2737276554107666,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.16785314679145813,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0003.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.92340487241745,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.060973960906267166,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.015133797191083431,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0265.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9785893559455872,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.021278174594044685,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00013239453255664557,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0215.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9948652386665344,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0050393035635352135,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 9.543229680275545e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0174.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9701611399650574,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.029185229912400246,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0006535071297548711,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0145.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.6701921224594116,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.2306036502122879,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.098897285759449,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0250.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9926018118858337,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.007189693860709667,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00020850128203164786,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0236.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9815378189086914,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.015725532546639442,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.002723800018429756,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0201.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9961144924163818,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.003828190267086029,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.7205856137443334e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0005.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9681897759437561,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.02136644721031189,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.009959925897419453,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0238.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.7914454340934753,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.11146485060453415,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.09707757830619812,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0127.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.6121872067451477,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.3207104206085205,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06709952652454376,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0076.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7682943344116211,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.16762593388557434,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.06406493484973907,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0230.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9967130422592163,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0032639673445373774,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.283626417920459e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0283.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9930363297462463,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.006779409013688564,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0001841960911406204,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0160.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9980886578559875,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0017426665872335434,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00016776385018602014,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0125.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7244434356689453,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.2116582691669464,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06389603763818741,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0253.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9882976412773132,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.011574209667742252,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00012798086390830576,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0200.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9900491237640381,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.009916962124407291,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.383559305802919e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0259.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9984253644943237,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0014477688819169998,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00012561309267766774,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0126.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.38249024748802185,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.3727443814277649,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.24428023397922516,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0208.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9844257831573486,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.015205946750938892,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00036534504033625126,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0213.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9982978701591492,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0016933915903791785,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.743066246097442e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0190.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9744470119476318,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.025549545884132385,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.467484475550009e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_convexus\\d063s0142.jpg",
+    "folder_number": 2,
+    "real_name": "Elaphropus_convexus",
+    "real_genus": "Elaphropus_convexus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5239842534065247,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.2961524724960327,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.17947624623775482,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0509.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.917555570602417,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.08183006197214127,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0006143247592262924,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0482.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8554726243019104,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.14433926343917847,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0001880762865766883,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0052.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.6759946346282959,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.3143762946128845,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.009590820409357548,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0065.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.6384216547012329,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.33749920129776,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.02406693436205387,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0458.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7040008902549744,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2959919273853302,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 7.127787284844089e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0503.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.925501823425293,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.07426150888204575,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00023664862965233624,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0466.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7203795313835144,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2796105146408081,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 9.93396133708302e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0456.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5322384834289551,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.46775344014167786,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.093665201158728e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0500.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9818633198738098,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.015338937751948833,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0027975868433713913,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0075.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.785925567150116,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.19285519421100616,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.021217945963144302,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0464.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7307505011558533,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2647956311702728,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0044519114308059216,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0495.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.6978616714477539,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.30212241411209106,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.5929932487779297e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0475.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.660129964351654,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.33973580598831177,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00013418753223959357,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0483.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8379921913146973,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.16199424862861633,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.3500036402547266e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0447.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9304417371749878,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06955695897340775,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.1704560165526345e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0465.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.6720036268234253,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.32786592841148376,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00012973358388990164,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0484.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9490018486976624,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.050997331738471985,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 7.975657467795827e-07,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0478.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9323700666427612,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.06684144586324692,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0007885218365117908,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0051.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.9574233293533325,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.035147394984960556,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.007392800413072109,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0073.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.6990253329277039,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.16433176398277283,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.1355980783700943,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0048.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9751924276351929,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.01734187826514244,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.007465480361133814,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0450.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9165399670600891,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.08342226594686508,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.779674443649128e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0487.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9250014424324036,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.07499606907367706,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.383791752436082e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0462.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9504812359809875,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.04951367527246475,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.1247307055746205e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0498.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5891695022583008,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.4107953906059265,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.508515510475263e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0507.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5601220726966858,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.42813557386398315,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.011664320714771748,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0459.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5634247660636902,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.43650510907173157,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 6.99951924616471e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0508.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8042933940887451,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.1870158612728119,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.008688650093972683,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0453.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9720494747161865,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.02191631682217121,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.006034066900610924,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0496.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.5979549288749695,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.40133771300315857,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0007071604486554861,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0047.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9823428988456726,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.013554960489273071,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0041020456701517105,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0490.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.991439700126648,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.008514453656971455,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.5914821384940296e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0451.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9818890690803528,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.017074188217520714,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0010366645874455571,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0062.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.862056314945221,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.10986941307783127,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.02806650660932064,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0480.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9825628995895386,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.017388368025422096,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.872422869084403e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0063.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9287241697311401,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.050778746604919434,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.02049487829208374,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0476.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5738924741744995,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.42610663175582886,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 9.164592711385922e-07,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0479.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.6828849911689758,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.3163450062274933,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.0007695259409956634,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0502.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9831979870796204,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.016791226342320442,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 1.0807810213009361e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0485.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8918316960334778,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.1081336960196495,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.459307481534779e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0454.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8548839688301086,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.14511524140834808,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 8.207964583561989e-07,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0472.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.9195104241371155,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.08038516342639923,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00010443590872455388,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0467.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9587256908416748,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.04122025892138481,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 5.408194920164533e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0481.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9837214350700378,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.016164084896445274,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00011446222197264433,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0499.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.5705516934394836,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.38659393787384033,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.042821258306503296,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0486.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.5403738617897034,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.4596216082572937,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.585609531204682e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0473.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.990156888961792,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.009837029501795769,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 6.132900125521701e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0050.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.9926344752311707,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0038176984526216984,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.003547805594280362,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0066.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7125317454338074,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.25663453340530396,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.03082721121609211,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0470.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8237570524215698,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.1762397587299347,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 3.174368657710147e-06,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0491.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7103015780448914,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.2896516025066376,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 4.683206498157233e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0504.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.996955156326294,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.0030210225377231836,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 2.3825048629078083e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0013.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7548744678497314,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.24486254155635834,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00026291428366675973,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0506.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7811782360076904,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.1370418816804886,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.08173411339521408,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0067.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.7770344018936157,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.12013060599565506,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.10280410945415497,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0492.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.8363009691238403,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.15995459258556366,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 0.00373429199680686,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  },
+  {
+    "archive_path": "Elaphropus_walkerianus\\d063s0455.jpg",
+    "folder_number": 3,
+    "real_name": "Elaphropus_walkerianus",
+    "real_genus": "Elaphropus_walkerianus",
+    "real_family": null,
+    "top5": [
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.974028468132019,
+        "genus": "Elaphropus_walkerianus",
+        "family": null
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.025877293199300766,
+        "genus": "Elaphropus_convexus",
+        "family": null
+      },
+      {
+        "label": "Bembidion_clarkei",
+        "prob": 9.421090362593532e-05,
+        "genus": "Bembidion_clarkei",
+        "family": null
+      }
+    ]
+  }
+]

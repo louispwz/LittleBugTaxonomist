@@ -4,25 +4,25 @@ import torch
 import torch.nn.functional as F
 from PIL import Image
 import open_clip
+import json
+import time 
 
 DATA_DIR = os.path.join('Data', 'data_few_shot')
-N_SHOT = [1, 5, 10,25,50]
+N_SHOT = [1, 5, 10, 25, 50]
 SEED = 123
+OUTPUT_DIR = "Data"
+TIMING_FILE = os.path.join(OUTPUT_DIR, "timings_summary.json")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Use of {device}")
 
-# On charge le modele et le preprocess
+# charge modele + preprocess
 model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
 model.to(device)
-model.eval()                                       # on met le modèle en mode évaluation (pas d'entraînement)
+model.eval()
 
 # Préparation des données
 def charger_dataset_few_shot(root_dir, n_shot):
-    
-    # Parcourt les dossiers, sépare les images en Support (n_shot) et Query (le reste)
-    # Renvoie des Tensors prêts pour le modèle
-    
     random.seed(SEED)
     
     classes = sorted([d for d in os.listdir(root_dir) if os.path.isdir(os.path.join(root_dir, d))])
@@ -32,41 +32,45 @@ def charger_dataset_few_shot(root_dir, n_shot):
     support_labels = []
     query_imgs = []
     query_labels = []
+    query_paths = []  # Stocke le chemin des fichiers
     
     print(f"Data {len(classes)} species :")
     
     for cls_name in classes:
         cls_path = os.path.join(root_dir, cls_name)
-        # On récupère les images 
-        files = [f for f in os.listdir(cls_path) if f.lower().endswith(('.jpg'))]
+        # récupère les images 
+        files = [f for f in os.listdir(cls_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
         files.sort()
         random.shuffle(files)
             
         # Séparation support / query
-        files_support = files[:n_shot]                      # les n premières
-        files_query = files[n_shot:]                        # le reste
+        split_idx = min(n_shot, len(files))
+        files_support = files[:split_idx]
+        files_query = files[split_idx:]
         
         cls_idx = class_to_idx[cls_name]
         
-        # Chargement et Preprocessing Support
+        # Chargement + preprocessing support
         for f in files_support:
             img_path = os.path.join(cls_path, f)
             image = Image.open(img_path).convert("RGB")
-            transformed_image = preprocess(image) # Transforme en Tensor [3, 224, 224]
+            transformed_image = preprocess(image)
             support_imgs.append(transformed_image)
             support_labels.append(cls_idx)
             
-        # Chargement et Preprocessing Query
+        # Chargement + preprocessing Query
         for f in files_query:
             img_path = os.path.join(cls_path, f)
             image = Image.open(img_path).convert("RGB")
             transformed_image = preprocess(image)
             query_imgs.append(transformed_image)
             query_labels.append(cls_idx)
+
+            # Stocke le chemin relatif pour JSON output
+            query_paths.append(os.path.join(cls_name, f))
             
         print(f"  - {cls_name} : {len(files_support)} Support / {len(files_query)} Query")
 
-    # Conversion en gros Tensors PyTorch
     if not support_imgs:
         raise ValueError("No support images found")
 
@@ -75,18 +79,15 @@ def charger_dataset_few_shot(root_dir, n_shot):
         torch.tensor(support_labels).to(device),
         torch.stack(query_imgs).to(device),
         torch.tensor(query_labels).to(device),
-        classes
+        classes,
+        query_paths
     )
 
-# Fonction de classification
-def few_shot_classification(model, support_images, support_labels, query_images):
+# Classifier
+def few_shot_classification_topk(model, support_images, support_labels, query_images, top_k=5):
     
-    # Classifie les query_images en comparant leur distance avec les prototypes des support_images
-    
-    with torch.no_grad():                       # Pas de calcul de gradient
-        
-        # Encodage (extraction des caractéristiques)
-        # vecteur à 768 dimensions
+    with torch.no_grad():
+        # Encodage
         support_features = model.encode_image(support_images)
         support_features = F.normalize(support_features, dim=-1)
         
@@ -95,135 +96,129 @@ def few_shot_classification(model, support_images, support_labels, query_images)
 
     # Prototypes
     unique_classes = torch.unique(support_labels)
-    unique_classes = sorted(unique_classes.tolist()) # S'assurer que l'ordre est 0, 1, 2...
+    unique_classes = sorted(unique_classes.tolist())
     prototypes = []
     
     for c in unique_classes:
-        # On sélectionne les vecteurs de la classe 'c'
         class_mask = (support_labels == c)
         class_features = support_features[class_mask]
-        
-        # Moyenne (Centroïde)
         mean_feature = class_features.mean(dim=0)
-        mean_feature = F.normalize(mean_feature, dim=-1) # O ormalise
+        mean_feature = F.normalize(mean_feature, dim=-1)
         prototypes.append(mean_feature)
         
-    prototypes = torch.stack(prototypes) # Taille : [Nb_Classes, 768]
+    prototypes = torch.stack(prototypes) # [Nb_Classes, 768]
 
-    # Calcul de similarité cosinus
-    # Matrice de scores : [Nb_Query, Nb_Classes]
-    similarities = torch.matmul(query_features, prototypes.T)
+    # Calcul de similarité cosinus [Nb_Query, Nb_Classes]
+    # On multiplie par 100.0 comme dans zero shot
+    logits = 100.0 * torch.matmul(query_features, prototypes.T)
     
-    # Prédiction
-    predictions = torch.argmax(similarities, dim=1)
+    probs = logits.softmax(dim=-1)
     
-    return predictions
+    # Récupération des top k
+    top_probs, top_indices = probs.topk(min(top_k, len(unique_classes)), dim=1)
+    
+    return top_probs, top_indices
 
-# On exécute le tout
 
 if __name__ == "__main__":
+    
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # Liste pour accumuler les stats de temps
+    all_timings = []
+
     for n in N_SHOT:
-        print(f"CLASSIFICATION{n}-SHOT")
-    # On prépare les données
-        sup_img, sup_lbl, qry_img, qry_lbl, class_names = charger_dataset_few_shot(DATA_DIR, n)
-    
-        print(f"{n}-shot classification with {len(qry_lbl)} test")
-    
-    # Classification
-        preds = few_shot_classification(model, sup_img, sup_lbl, qry_img)
-    
-    # Acuracy
-        correct = (preds == qry_lbl).sum().item()
-        total = len(qry_lbl)
-        accuracy = correct / total * 100
-    
-        print(" iveau espece ")
-        print(f"Acuracy : {accuracy:.2f}%")
-    
-    
-    # par espèce 
-    
-    # On boucle sur chaque espèce 
-        for i, class_name in enumerate(class_names):
-        # On récupère les indices des images de test appartenant à cette espèce
-            indices_espece = (qry_lbl == i).nonzero(as_tuple=True)[0]
+        print(f"\n----- CLASSIFICATION {n}-SHOT -----")
         
-            if len(indices_espece) > 0:
-                preds_espece = preds[indices_espece]
-                targets_espece = qry_lbl[indices_espece]
+        # Dictionnaire pour stocker les temps de ce cycle
+        current_timing = {"n_shot": n}
+        
+        try:
+            # tps chargement 
+            t_start_load = time.time()
+            sup_img, sup_lbl, qry_img, qry_lbl, class_names, qry_paths = charger_dataset_few_shot(DATA_DIR, n)
+            t_end_load = time.time()
             
-                correct_espece = (preds_espece == targets_espece).sum().item()
-                total_espece = len(indices_espece)
-                acc_espece = correct_espece / total_espece * 100
+            duration_load = t_end_load - t_start_load
+            current_timing["loading_seconds"] = round(duration_load, 4)
+            print(f"Data Loaded in {duration_load:.4f}s. Processing {len(qry_lbl)} test images")
             
-            # On regarde les erreurs
-                detail_erreurs = ""
-                if correct_espece < total_espece:
-                # Predictions fausses
-                    mask_erreur = preds_espece != targets_espece
-                    mauvaises_preds = preds_espece[mask_erreur]
-                
-                    comptage_confusions = {}
-                    for p in mauvaises_preds:
-                        nom_confus = class_names[p.item()]
-                        comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
-                
-                # texte
-                    detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
+            # tps classification (=inference ?)
+            t_start_infer = time.time()
+            if device == "cuda": torch.cuda.synchronize()
+            top_probs, top_indices = few_shot_classification_topk(model, sup_img, sup_lbl, qry_img, top_k=3)
+            if device == "cuda": torch.cuda.synchronize()
+            t_end_infer = time.time()
             
-                print(f"  - {class_name:<25} : {acc_espece:6.2f}% ({correct_espece}/{total_espece}){detail_erreurs}")
+            duration_infer = t_end_infer - t_start_infer
+            current_timing["inference_seconds"] = round(duration_infer, 4)
+            print(f"Inference done in {duration_infer:.4f}s")
 
-        # par image
-        #print("Predictions")
-        #for i in range(total):
-        #    vrai_nom = class_names[qry_lbl[i]]
-        #    pred_nom = class_names[preds[i]]
-        #    statut = "Correct" if preds[i] == qry_lbl[i] else "False"
-        #    print(f"Image {i+1} ({vrai_nom}) PREDICTED AS {pred_nom} {statut}")
-        
-        print(" iveau genre ")
-        
-        # Extraction des genres + mapping
-        genres_names_list = [c.split(' ')[0] for c in class_names]
-        unique_genera = sorted(list(set(genres_names_list)))
-        
-        genus_to_idx = {g: i for i, g in enumerate(unique_genera)}
-        
-        # Conversion index espèce / index genre
-        species_id_to_genus_id = torch.tensor([genus_to_idx[g] for g in genres_names_list]).to(device)
-        
-        # Conversion de tous les labels 
-        qry_lbl_genus = species_id_to_genus_id[qry_lbl]
-        preds_genus = species_id_to_genus_id[preds]
-
-        correct_genus_global = (preds_genus == qry_lbl_genus).sum().item()
-        total_imgs = len(qry_lbl)
-        acc_genus_global = correct_genus_global / total_imgs * 100
-        
-        print(f" Accuracy : {acc_genus_global:.2f}%")
-
-        # Détails par Genre 
-        for i, genus_name in enumerate(unique_genera):
-            indices_genus = (qry_lbl_genus == i).nonzero(as_tuple=True)[0]
+            # tps json
+            t_start_format = time.time()
+            session_results = []
             
-            if len(indices_genus) > 0:
-                preds_g = preds_genus[indices_genus]
-                targets_g = qry_lbl_genus[indices_genus]
+            # itère sur chaque Query
+            for i in range(len(qry_lbl)):
                 
-                correct_g = (preds_g == targets_g).sum().item()
-                total_g = len(indices_genus)
-                acc_g = correct_g / total_g * 100
+                real_label_idx = qry_lbl[i].item()
+                real_name = class_names[real_label_idx]
+                real_genus = real_name.split(' ')[0]    # On suppose format "Genus species"
+                real_family = None                      # Info non disponible
                 
-                detail_erreurs = ""
-                if correct_g < total_g:
-                    mask_erreur = preds_g != targets_g
-                    mauvaises_preds = preds_g[mask_erreur]
+                # Predictions
+                top3 = []
+                for k in range(top_indices.shape[1]):
+                    pred_idx = top_indices[i, k].item()
+                    prob = top_probs[i, k].item()
                     
-                    comptage_confusions = {}
-                    for p in mauvaises_preds:
-                        nom_confus = unique_genera[p.item()] 
-                        comptage_confusions[nom_confus] = comptage_confusions.get(nom_confus, 0) + 1
+                    pred_label = class_names[pred_idx]
+                    pred_genus = pred_label.split(' ')[0]
                     
-                    detail_erreurs = " missclassed with " + ", ".join([f"{k} ({v})" for k, v in comptage_confusions.items()])
+                    top3.append({
+                        "label": pred_label,
+                        "prob": prob,              
+                        "genus": pred_genus,
+                        "family": None               
+                    })
                 
-                print(f"  - {genus_name:<25} : {acc_g:6.2f}% ({correct_g}/{total_g}){detail_erreurs}")
+                # On ajoute l'entrée
+                session_results.append({
+                    "archive_path": qry_paths[i],
+                    "folder_number": real_label_idx, 
+                    "real_name": real_name,
+                    "real_genus": real_genus,
+                    "real_family": real_family,
+                    "top5": top3
+                })
+            t_end_format = time.time()
+            current_timing["formatting_seconds"] = round(t_end_format - t_start_format, 4)
+
+            # tps sauvegarde
+            t_start_save = time.time()
+            output_json_path = os.path.join(OUTPUT_DIR, f"few_shot_predictions_{n}shot.json")
+            with open(output_json_path, "w", encoding="utf-8") as f:
+                json.dump(session_results, f, ensure_ascii=False, indent=2)
+            t_end_save = time.time()
+            current_timing["saving_seconds"] = round(t_end_save - t_start_save, 4)
+            
+            # Calcul du total pour ce shot
+            current_timing["total_cycle_seconds"] = round(current_timing["loading_seconds"] + 
+                                                          current_timing["inference_seconds"] + 
+                                                          current_timing["formatting_seconds"] + 
+                                                          current_timing["saving_seconds"], 4)
+            
+            # Ajout à la liste globale
+            all_timings.append(current_timing)
+            print(f"Results saved in {output_json_path}")
+            
+        except Exception as e:
+            print(f"Error {n}-shot : {e}")
+            current_timing["error"] = str(e)
+            all_timings.append(current_timing)
+
+    # json timing global
+    with open(TIMING_FILE, "w", encoding="utf-8") as f:
+        json.dump(all_timings, f, indent=2)
+    
+    print(f"\nGlobal timing summary saved in {TIMING_FILE}")
