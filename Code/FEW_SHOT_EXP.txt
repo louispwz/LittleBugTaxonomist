@@ -1,0 +1,33 @@
+# --- ASTUCE POUR LE FINE-TUNING SANS TEXTE ---
+            # BioClip est un modèle Image-Texte. Pour le fine-tuner en classification pure
+            # sans utiliser de prompts textes ("a photo of X"), on ajoute souvent une
+            # couche de classification linéaire temporaire (Classifier Head).
+            #
+            # CEPENDANT, ici pour rester proche de ton code précédent, nous allons utiliser
+            # une approche "Prototypical Loss" simplifiée ou une classification directe.
+            #
+            # Pour simplifier et utiliser la structure existante sans ajouter de couche :
+            # Nous allons simuler une classification en utilisant les embeddings
+            # (C'est une approche avancée, mais pour faire simple ici, on va ajouter
+            # une tête de classification linéaire temporaire juste pour l'entraînement).
+            
+            # --- APPROCHE SIMPLE : Linear Probe sur les features ---
+            # Mais attention, tu as demandé que le modèle EVOLUE.
+            # Donc on doit backpropager dans le modèle visual.
+            pass
+            
+            # NOTE : Le code original Bioclip utilise du texte.
+            # Si on veut fine-tuner SANS texte, on doit mapper features -> classes.
+            # Comme on ne peut pas facilement fine-tuner le "texte" sans données textes,
+            # je vais utiliser une astuce :
+            # On ne va PAS utiliser CrossEntropy classique sur des classes 0,1,2...
+            # car le modèle sort un vecteur de 768 dim, pas des logits de classes.
+            
+    # RECTIFICATION : Pour fine-tuner un modèle CLIP (Image-Texte) sans texte,
+    # le plus simple est d'utiliser les PROTOTYPES comme "ancres" fixes ou mobiles.
+    # Mais c'est complexe à coder en quelques lignes.
+    
+    # -> SOLUTION PRAGMATIQUE : On ajoute une couche linéaire (classifier) temporaire
+    # attachée à la sortie du modèle. On entraîne (Modèle + Classifier).
+    # À la fin, on jette le classifier et on garde le modèle amélioré pour faire
+    # la méthode des prototypes comme avant.
