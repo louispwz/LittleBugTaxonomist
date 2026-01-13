@@ -7,10 +7,12 @@ import open_clip
 import json
 import time 
 
-# config
+
 DATA_DIR = os.path.join('Data', 'data_new_few_shot') 
+METADATA_PATH = os.path.join('Data', 'metadata_images.json') # Chemin des métadonnées
+
 N_SHOT = [1, 5, 10, 25, 50]
-N_QUERY = 5
+N_QUERY = 10
 SEED = 123
 OUTPUT_DIR = "Data"
 
@@ -18,9 +20,40 @@ BATCH_SIZE = 32
 
 TIMING_FILE = os.path.join(OUTPUT_DIR, "new_timings_summary_freeze.json") 
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Use of {device}")
+
+# metadata dictionnaire 
+
+TAXONOMY_MAP = {}
+
+try:
+    with open(METADATA_PATH, 'r', encoding='utf-8') as f:
+        meta_list = json.load(f)
+        
+    for entry in meta_list:
+        gbif = entry.get('gbif')
+        
+        if not gbif:
+            continue
+            
+        species = gbif.get('species')
+        if species:
+            # Normalisation : "Genus species" -> "Genus_species"
+            clean_name = species.replace(" ", "_").replace(".", "")
+            
+            TAXONOMY_MAP[clean_name] = {
+                "family": gbif.get("family"),
+                "folder_number": entry.get("folder_number")
+            }
+            
+    print(f"Taxonomie chargee pour {len(TAXONOMY_MAP)} especes")
+    
+except FileNotFoundError:
+    print("ATTENTION : Fichier metadata_images.json introuvable")
+except json.JSONDecodeError:
+    print("error le fichier JSON est mal formé.")
+
 
 # charge modele + preprocess
 model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
@@ -113,7 +146,6 @@ def charger_dataset_few_shot(root_dir, n_shot):
 def few_shot_classification_optimized(model, support_images, support_labels, query_images, top_k=5, batch_size=32):
     
     # Encodage par batch
-
     support_features_cpu = encode_in_batches(model, support_images, batch_size)
     query_features_cpu = encode_in_batches(model, query_images, batch_size)
 
@@ -187,7 +219,7 @@ if __name__ == "__main__":
             current_timing["inference_seconds"] = round(duration_infer, 4)
             print(f"Inference done in {duration_infer:.4f}s")
 
-            # JSON
+            # JSON FORMATTING
             t_start_format = time.time()
             session_results = []
             
@@ -199,8 +231,13 @@ if __name__ == "__main__":
             for i in range(len(qry_lbl)):
                 real_label_idx = qry_lbl[i].item()
                 real_name = class_names[real_label_idx]
-                real_genus = real_name.split(' ')[0]
-                real_family = None
+                
+                # --- RECUPERATION DES INFOS VIA LE DICO ---
+                info_espece = TAXONOMY_MAP.get(real_name, {})
+                
+                real_genus = real_name.split('_')[0]
+                real_family = info_espece.get("family") # Récupération famille
+                real_folder_num = info_espece.get("folder_number") # Récupération folder_number
                 
                 top5 = []
                 for k in range(top_indices.shape[1]):
@@ -208,27 +245,31 @@ if __name__ == "__main__":
                     prob = top_probs[i, k].item()
                     
                     pred_label = class_names[pred_idx]
-                    pred_genus = pred_label.split(' ')[0]
+                    pred_genus = pred_label.split('_')[0]
+                    
+                    # Récupération famille pour la prédiction aussi
+                    pred_info = TAXONOMY_MAP.get(pred_label, {})
+                    pred_family = pred_info.get("family")
                     
                     top5.append({
                         "label": pred_label,
                         "prob": prob,              
                         "genus": pred_genus,
-                        "family": None               
+                        "family": pred_family              
                     })
                 
                 session_results.append({
                     "archive_path": qry_paths[i],
-                    "folder_number": real_label_idx, 
+                    "folder_number": real_folder_num, 
                     "real_name": real_name,
                     "real_genus": real_genus,
-                    "real_family": real_family,
+                    "real_family": real_family, 
                     "top5": top5
                 })
             t_end_format = time.time()
             current_timing["formatting_seconds"] = round(t_end_format - t_start_format, 4)
 
-            # save 
+            # SAVE
             t_start_save = time.time()
             output_json_path = os.path.join(OUTPUT_DIR, f"new_few_shot_predictions_{n}shot_freeze.json")
             with open(output_json_path, "w", encoding="utf-8") as f:
@@ -249,6 +290,7 @@ if __name__ == "__main__":
             current_timing["error"] = str(e)
             all_timings.append(current_timing)
 
+    # Save timings
     with open(TIMING_FILE, "w", encoding="utf-8") as f:
         json.dump(all_timings, f, indent=2)
     

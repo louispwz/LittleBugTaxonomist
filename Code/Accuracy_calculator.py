@@ -79,5 +79,5 @@ def print_accuracies(json_path: str, only: Optional[str] = None) -> None:
 
 if __name__ == "__main__":
 	# Exécution simple : demande le chemin (avec valeur par défaut) et affiche les résultats.
-	path = "Data/zero_shot_predictions.json"
+	path = "Data/few_shot_predictions_1shot.json"
 	print_accuracies(path)

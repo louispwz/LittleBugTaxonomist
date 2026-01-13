@@ -2,10 +2,10 @@
             # BioClip est un modèle Image-Texte. Pour le fine-tuner en classification pure
             # sans utiliser de prompts textes ("a photo of X"), on ajoute souvent une
             # couche de classification linéaire temporaire (Classifier Head).
-            #
+            
             # CEPENDANT, ici pour rester proche de ton code précédent, nous allons utiliser
             # une approche "Prototypical Loss" simplifiée ou une classification directe.
-            #
+            
             # Pour simplifier et utiliser la structure existante sans ajouter de couche :
             # Nous allons simuler une classification en utilisant les embeddings
             # (C'est une approche avancée, mais pour faire simple ici, on va ajouter

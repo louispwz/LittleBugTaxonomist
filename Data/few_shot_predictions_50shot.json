@@ -1,3457 +1,4225 @@
 [
   {
     "archive_path": "Agonum_nigrum\\d154s0110.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9995009899139404,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0004988039145246148,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 9.14182933797747e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.8594445094777257e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0205.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9998636245727539,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00013639405369758606,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 5.596503527272034e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.306777601215117e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0225.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9984695315361023,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0015297415666282177,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 5.679680157300027e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 8.442669496844246e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0224.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999552965164185,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 4.475173773244023e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 4.738615544397362e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 8.110960791896105e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0240.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999816358089447,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00018301782256457955,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 6.264504577302432e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 3.4898473444400224e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0106.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999356269836426,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 6.4382009441033e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 6.940129360089031e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.4670750432018735e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0197.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9989629983901978,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0010366298956796527,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 3.191333632912574e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 6.673312569205336e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0216.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999457597732544,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 5.396143751568161e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 2.8899978588015074e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 2.724143755017394e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0079.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999370574951172,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 6.289645534707233e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 8.653633365440783e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 5.167692385121825e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0208.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9998782873153687,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0001216718737850897,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 8.13226996854155e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.1698852997454878e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0109.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999947547912598,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 5.232031980995089e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 4.3665224325195595e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.7745671598845547e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0218.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999842643737793,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00015682009689044207,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 4.212130306768813e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 2.414019384389121e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0072.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999967098236084,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 3.285506318206899e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 8.987989907893734e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.073626158618282e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0238.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9987046718597412,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0009015065734274685,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.00038894196040928364,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.808212906937115e-06,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0116.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9981378316879272,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00186066422611475,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.1076281225541607e-06,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 3.6696363281407685e-07,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0237.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9991747736930847,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.000645757419988513,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00017283794295508415,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 6.718496933899587e-06,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0235.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9896937012672424,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.010288584046065807,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.595696267031599e-05,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.8610152210385422e-06,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0095.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9634226560592651,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.03657449781894684,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 2.349758460695739e-06,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 5.542297571992094e-07,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0101.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9963165521621704,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0036818881053477526,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.5626451386197004e-06,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.4840709994246026e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0246.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999817430973053,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00016935956955421716,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.2973013326700311e-05,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 2.2887451223141397e-07,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0202.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999735355377197,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 2.6514404453337193e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 3.58079432771774e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 7.63862306740748e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0201.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999907374382019,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.262865205528215e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.68943401490651e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 8.57244886187658e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0236.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.999180018901825,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0008198007708415389,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 1.305943726492842e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 2.6580076806226316e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0231.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9998495578765869,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00015040898870211095,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 2.573141344441865e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 7.050289241306018e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0207.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9994908571243286,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0005091259954497218,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 3.6941308678706264e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 3.780016299970157e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0077.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9998619556427002,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00013806266360916197,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 7.115523725786943e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 7.273568969345945e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0091.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9980295300483704,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0019702939316630363,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 9.713912874076414e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 4.105586981495435e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0245.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999284744262695,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 7.153952901717275e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 8.756164682210965e-09,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 8.036484255846688e-10,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0211.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9990097284317017,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0009568854002282023,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 3.15767501888331e-05,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.7968083056985051e-06,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0088.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999053478240967,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.45462379604578e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 8.366197334908065e-08,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 5.03511321525707e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0124.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9987403750419617,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0012586915399879217,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 9.4318625087908e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.5037944223195154e-08,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Agonum_nigrum\\d154s0080.jpg",
-    "folder_number": 0,
+    "folder_number": 5755027,
     "real_name": "Agonum_nigrum",
-    "real_genus": "Agonum_nigrum",
-    "real_family": null,
+    "real_genus": "Agonum",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Agonum_nigrum",
         "prob": 0.9999198913574219,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 7.981594535522163e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 2.237679126437797e-07,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 8.800157047517132e-09,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0138.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9639146327972412,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.02559160441160202,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.009778314270079136,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0007154265185818076,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0385.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9868696331977844,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.008059381507337093,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.004655026830732822,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00041602287092246115,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0116.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.8999895453453064,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0737101137638092,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.026188278570771217,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00011214465484954417,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0017.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9917466640472412,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.005919409450143576,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.002016991376876831,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00031695785582996905,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0528.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9554548859596252,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.02787167951464653,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.014442767016589642,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0022306584287434816,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0472.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9364567399024963,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.060763902962207794,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.001960807479918003,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0008184594917111099,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0334.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9921695590019226,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.005681267008185387,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.002022892003878951,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00012627722753677517,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0491.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.6669694781303406,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.29814615845680237,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.033883363008499146,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0010009442921727896,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0227.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9988068342208862,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0005731303826905787,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.00047780273598618805,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_convexus",
+        "prob": 0.00014225911581888795,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0254.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9992262125015259,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.00039358201320283115,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.00019745752797462046,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00018273823661729693,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0117.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.5206108689308167,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.3033778667449951,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.17599739134311676,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.388771488564089e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0488.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.6809583306312561,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.23904795944690704,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.07493281364440918,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.005060910247266293,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0450.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9978297352790833,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0016498856712132692,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0003197473124600947,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00020062930707354099,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0447.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9504780173301697,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0442764088511467,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.005033907480537891,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0002116701944032684,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0475.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9856306910514832,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0105276545509696,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.003527991008013487,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00031371047953143716,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0451.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9651637673377991,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.019500097259879112,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.010869515128433704,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0044665951281785965,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0266.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9818856120109558,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.015624172985553741,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.0024214417207986116,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 6.881271110614762e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0093.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.983124852180481,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.013921504840254784,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.0029438890051096678,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 9.816644706006628e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0457.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.5833169221878052,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.37244874238967896,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.043893031775951385,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00034128647530451417,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0469.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9890507459640503,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.010395484045147896,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0005246092332527041,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 2.9202339646872133e-05,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0368.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9938202500343323,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.003152343211695552,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.0018093133112415671,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0012180842459201813,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0232.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9998078942298889,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 9.75156290223822e-05,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 8.667926886118948e-05,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 7.912521141406614e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0308.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9977248311042786,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0019489144906401634,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.00019886794325429946,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00012733449693769217,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0022.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.99092698097229,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.008583211340010166,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.00039279251359403133,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 9.698404028313234e-05,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0309.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9989905953407288,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0005281379562802613,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.00026818690821528435,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00021302590903360397,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0119.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9135758876800537,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.07389812916517258,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.012279808521270752,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00024623345234431326,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0485.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9734443426132202,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.01340862363576889,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.008216499350965023,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.004930611699819565,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0207.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9973057508468628,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0026556914672255516,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 2.1920897779637016e-05,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 1.6672722267685458e-05,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0054.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9942871928215027,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.003098279470577836,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.002085043815895915,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.0005294831935316324,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0287.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9263353943824768,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.0399603471159935,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.030855178833007812,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.00284899165853858,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0483.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9781628251075745,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Agonum_nigrum",
         "prob": 0.01685257814824581,
-        "genus": "Agonum_nigrum",
-        "family": null
+        "genus": "Agonum",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0037016815040260553,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Elaphropus_walkerianus",
+        "prob": 0.0012828733306378126,
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Bembidion_clarkei\\d084s0335.jpg",
-    "folder_number": 1,
+    "folder_number": 8047965,
     "real_name": "Bembidion_clarkei",
-    "real_genus": "Bembidion_clarkei",
-    "real_family": null,
+    "real_genus": "Bembidion",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.7881134748458862,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.1509958803653717,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.06086558476090431,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.505845986888744e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0271.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9689496755599976,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.029618656262755394,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0014203645987436175,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.1355874448781833e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0078.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9155310392379761,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.07211703807115555,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.01232112105935812,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 3.074087726417929e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0185.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9147430062294006,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.0751703679561615,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.01008002832531929,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 6.597004812647356e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0180.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.8916667103767395,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.10807575285434723,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00025756534887477756,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 5.030347338674801e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0234.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9756105542182922,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.024386323988437653,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 3.0710700684721814e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.7533997304374225e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0157.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.959186851978302,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.04078171029686928,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 3.1482977647101507e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 5.01522627871509e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0182.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.7924269437789917,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.20756715536117554,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 5.860543296876131e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.0016028006987199e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0082.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.8189221620559692,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.11828155070543289,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.06279586255550385,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 3.9930449702296755e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0003.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.8619521260261536,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.10837022215127945,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.029247667640447617,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00043001867015846074,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0265.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9668686985969543,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.03298990800976753,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00014122134598437697,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 9.454952731857702e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0215.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9887414574623108,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.011140652000904083,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00011793013254646212,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 3.1583763160369926e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0174.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.8763472437858582,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.12181499600410461,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0018376087537035346,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.5142272502544074e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0145.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.4698834717273712,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.44083917140960693,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.08885069191455841,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.000426583195803687,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0250.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9823722243309021,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.017228921875357628,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00039885795558802783,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.3700478024579752e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0236.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9279487133026123,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.06498046219348907,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.007053854875266552,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.6927942851907574e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0201.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9790594577789307,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.020845765247941017,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.452355152461678e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.2379973074748705e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0005.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Bembidion_clarkei",
         "prob": 0.9464035630226135,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.04596925526857376,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.007509714458137751,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00011745584197342396,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0238.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.893805742263794,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.05740124732255936,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.04878833889961243,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 4.6935301725170575e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0127.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.6065075397491455,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.2706764042377472,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.12281402945518494,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.1102853224874707e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0076.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.6516697406768799,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.2712111473083496,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.07711094617843628,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 8.210467967728619e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0230.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9858657121658325,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.014087854884564877,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 4.626717418432236e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.9450445165603014e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0283.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9650282263755798,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.03472864255309105,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00024306707200594246,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.2118397307858686e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0160.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9909323453903198,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.008697298355400562,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00036912874202243984,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.1967489399467013e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0125.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.8133371472358704,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.12049491703510284,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.066166453063488,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.4905172065482475e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0253.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9759055376052856,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.023874105885624886,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00021992326946929097,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 4.535979769570986e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0200.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9834886193275452,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.016469312831759453,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 4.19265306845773e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.436974059743079e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0259.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9932346940040588,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.006453240290284157,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.000309078604914248,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.9521497708628885e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0126.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.5576634407043457,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.28267475962638855,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.1593082994222641,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00035351718543097377,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0208.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9213257431983948,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.07811284810304642,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0005585876642726362,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.8214456051500747e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0213.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9942628741264343,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.005722081288695335,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 1.5019686543382704e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.657366415803608e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0190.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.9543952345848083,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.04559765383601189,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 7.14101270204992e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 5.935452573879729e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_convexus\\d063s0142.jpg",
-    "folder_number": 2,
+    "folder_number": 7582513,
     "real_name": "Elaphropus_convexus",
-    "real_genus": "Elaphropus_convexus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.5455539226531982,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.33150920271873474,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.1225271224975586,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 0.00040972730494104326,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0507.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7170281410217285,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.2710197865962982,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.01192550640553236,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.6580764824757352e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0459.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7005261778831482,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.29941579699516296,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 5.791934017906897e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 9.850329973914995e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0508.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.6874017715454102,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.2506394684314728,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.061955079436302185,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 3.6677977277577156e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0453.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9417638778686523,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.050901513546705246,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.007334569003432989,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 9.397902545060788e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0496.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7093677520751953,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.2897877097129822,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0008443917613476515,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.7492446602318523e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0047.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9376052618026733,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.034643009305000305,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.027751408517360687,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.216356307371825e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0490.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.974275529384613,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.02563564106822014,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 8.889017772162333e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 8.721928068666784e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0451.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9363020062446594,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.06214337423443794,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.001554566202685237,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 4.163479161434225e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0062.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7399463653564453,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.2173536717891693,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.042694784700870514,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 5.1334100135136396e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0480.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9696218967437744,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.030291887000203133,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 8.61832158989273e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.8013961877727525e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0063.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.8777279257774353,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.06162993609905243,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.060641128569841385,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.0515581152503728e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0476.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.8192585706710815,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.18074053525924683,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.002918659462011e-07,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.9908015236325127e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0479.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.764182448387146,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.23506788909435272,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.0007495579193346202,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.706300594150889e-07,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0502.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9489550590515137,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.051021285355091095,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 2.3658283680561e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.1983100067780583e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0485.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9053308367729187,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.09464104473590851,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 2.8178976208437234e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.0980230946699976e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0454.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9142928719520569,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0857062116265297,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.042038868756208e-07,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 5.7059940106185536e-11,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0472.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_convexus",
         "prob": 0.6223770380020142,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.37739571928977966,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00022716457897331566,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 4.3648281433661396e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0467.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9467203617095947,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.053213853389024734,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 6.581836350960657e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.8661387102270055e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0481.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.961236834526062,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.038565076887607574,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00019810424419119954,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 7.967138060394063e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0499.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.40891993045806885,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.4018222987651825,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.18924203515052795,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.5751651517348364e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0486.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7094630002975464,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.29053282737731934,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 4.155572241870686e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 9.926980126806484e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0473.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9883680939674377,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.011624505743384361,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 7.449341865140013e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.3605840010200154e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0050.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9531342387199402,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.03633717820048332,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.010528512299060822,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.6867169822253345e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0066.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.6488399505615234,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.30025970935821533,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.0508975125849247,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.7670330382534303e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0470.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.8642032742500305,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.13579389452934265,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 2.743952336459188e-06,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.3010573446669014e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0491.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7360802888870239,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.26387903094291687,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 4.073986201547086e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 6.603262381332797e-10,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0504.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9823306798934937,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.017579253762960434,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 9.00699888006784e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 8.205107149272806e-10,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0013.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7287017107009888,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.2709055542945862,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.00039263837970793247,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 8.155161879130901e-08,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0506.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.6965278387069702,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.21308964490890503,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.09036561101675034,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.6916135791689157e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0067.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.7527381181716919,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.15385137498378754,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.09339819848537445,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 1.2331006473687012e-05,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0492.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.8797785043716431,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.11750387400388718,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 0.002714819274842739,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.790423650367302e-06,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   },
   {
     "archive_path": "Elaphropus_walkerianus\\d063s0455.jpg",
-    "folder_number": 3,
+    "folder_number": 8139233,
     "real_name": "Elaphropus_walkerianus",
-    "real_genus": "Elaphropus_walkerianus",
-    "real_family": null,
+    "real_genus": "Elaphropus",
+    "real_family": "Carabidae",
     "top5": [
       {
         "label": "Elaphropus_walkerianus",
         "prob": 0.9730821847915649,
-        "genus": "Elaphropus_walkerianus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Elaphropus_convexus",
         "prob": 0.026831990107893944,
-        "genus": "Elaphropus_convexus",
-        "family": null
+        "genus": "Elaphropus",
+        "family": "Carabidae"
       },
       {
         "label": "Bembidion_clarkei",
         "prob": 8.583145245211199e-05,
-        "genus": "Bembidion_clarkei",
-        "family": null
+        "genus": "Bembidion",
+        "family": "Carabidae"
+      },
+      {
+        "label": "Agonum_nigrum",
+        "prob": 2.3949320304694766e-09,
+        "genus": "Agonum",
+        "family": "Carabidae"
       }
     ]
   }
