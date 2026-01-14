@@ -92,7 +92,7 @@ def process_batch_accuracies(experiments_map: Dict[str, List[str]], output_json_
             }
             all_results.append(file_result)
 
-    # Sauvegarde dans le fichier final
+    # Sauvegarde
     try:
         with open(output_json_path, "w", encoding="utf-8") as f_out:
             json.dump(all_results, f_out, indent=4, ensure_ascii=False)
@@ -106,8 +106,10 @@ if __name__ == "__main__":
 
     
     experiments_config = {
-        
-        "PREDICTIONS FEW SHOT": [
+        "PREDICTIONS ZERO SHOT": [
+            "Data/zero_shot_predictions.json"
+        ],
+        "PREDICTIONS FEW SHOT sur 4 especes": [
             "Data/few_shot_predictions_1shot.json",
             "Data/few_shot_predictions_5shot.json",
             "Data/few_shot_predictions_10shot.json",
@@ -115,9 +117,12 @@ if __name__ == "__main__":
             "Data/few_shot_predictions_50shot.json"
         ],
         
-        # pour ajouter d'autres tchniques
-        "PREDICTIONS ZERO SHOT": [
-             "Data/zero_shot_predictions.json"
+        "PREDICTIONS FEW SHOT all dataset": [
+            "Data/new_few_shot_predictions_1shot_freeze.json",
+            "Data/new_few_shot_predictions_5shot_freeze.json",
+            "Data/new_few_shot_predictions_10shot_freeze.json",
+            "Data/new_few_shot_predictions_25shot_freeze.json",
+            "Data/new_few_shot_predictions_50shot_freeze.json"
         ]
     }
 
