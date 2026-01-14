@@ -1,0 +1,98 @@
+[
+    {
+        "technique": "PREDICTIONS FEW SHOT",
+        "filename": "Data/few_shot_predictions_1shot.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "66.67%",
+                    "correct": "216/324"
+                },
+                "genus": {
+                    "accuracy": "88.89%",
+                    "correct": "288/324"
+                }
+            }
+        }
+    },
+    {
+        "technique": "PREDICTIONS FEW SHOT",
+        "filename": "Data/few_shot_predictions_5shot.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "79.55%",
+                    "correct": "245/308"
+                },
+                "genus": {
+                    "accuracy": "95.78%",
+                    "correct": "295/308"
+                }
+            }
+        }
+    },
+    {
+        "technique": "PREDICTIONS FEW SHOT",
+        "filename": "Data/few_shot_predictions_10shot.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "86.81%",
+                    "correct": "250/288"
+                },
+                "genus": {
+                    "accuracy": "95.14%",
+                    "correct": "274/288"
+                }
+            }
+        }
+    },
+    {
+        "technique": "PREDICTIONS FEW SHOT",
+        "filename": "Data/few_shot_predictions_25shot.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "89.91%",
+                    "correct": "205/228"
+                },
+                "genus": {
+                    "accuracy": "95.18%",
+                    "correct": "217/228"
+                }
+            }
+        }
+    },
+    {
+        "technique": "PREDICTIONS FEW SHOT",
+        "filename": "Data/few_shot_predictions_50shot.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "91.41%",
+                    "correct": "117/128"
+                },
+                "genus": {
+                    "accuracy": "96.09%",
+                    "correct": "123/128"
+                }
+            }
+        }
+    },
+    {
+        "technique": "PREDICTIONS ZERO SHOT",
+        "filename": "Data/zero_shot_predictions.json",
+        "metrics": {
+            "top1_accuracy": {
+                "species": {
+                    "accuracy": "8.60%",
+                    "correct": "43/500"
+                },
+                "genus": {
+                    "accuracy": "33.20%",
+                    "correct": "166/500"
+                }
+            }
+        }
+    }
+]
