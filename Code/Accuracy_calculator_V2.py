@@ -102,7 +102,7 @@ def process_batch_accuracies(experiments_map: Dict[str, List[str]], output_json_
 
 if __name__ == "__main__":
     
-    output_file = "global_accuracy_results.json"
+    output_file = "Results/global_accuracy_results.json"
 
     
     experiments_config = {

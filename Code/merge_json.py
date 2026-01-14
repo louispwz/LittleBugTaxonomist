@@ -3,10 +3,10 @@ import re
 import os
 
 # --- CONFIGURATION DES NOMS DE FICHIERS ---
-FILE_MAIN = 'global_accuracy_results.json'
+FILE_MAIN = 'Results/global_accuracy_results.json'
 FILE_TIME_STD = 'Data/few_shot_timings_summary.json' # J'ajoute .json, vérifiez l'extension
 FILE_TIME_NEW = 'Data/new_few_shot_timings_summary_freeze.json' # J'ajoute .json, vérifiez l'extension
-OUTPUT_FILE = 'Data/COMPILED_results.json'
+OUTPUT_FILE = 'Results/COMPILED_results.json'
 
 def load_json(filepath):
     try:
