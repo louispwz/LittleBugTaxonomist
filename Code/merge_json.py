@@ -2,10 +2,10 @@ import json
 import re
 import os
 
-# --- CONFIGURATION DES NOMS DE FICHIERS ---
+# config
 FILE_MAIN = 'Results/global_accuracy_results.json'
-FILE_TIME_STD = 'Data/few_shot_timings_summary.json' # J'ajoute .json, vérifiez l'extension
-FILE_TIME_NEW = 'Data/new_few_shot_timings_summary_freeze.json' # J'ajoute .json, vérifiez l'extension
+FILE_TIME_STD = 'Data/few_shot_timings_summary.json' 
+FILE_TIME_NEW = 'Data/new_few_shot_timings_summary_freeze.json' 
 OUTPUT_FILE = 'Results/COMPILED_results.json'
 
 def load_json(filepath):
@@ -17,13 +17,13 @@ def load_json(filepath):
         return None
 
 def main():
-    # 1. Chargement des données
+    # Chargement des données
     main_data = load_json(FILE_MAIN)
     timings_std_list = load_json(FILE_TIME_STD)
     timings_new_list = load_json(FILE_TIME_NEW)
 
     if not main_data or not timings_std_list or not timings_new_list:
-        return # On arrête si un fichier manque
+        return
 
     # On transforme les listes en dictionnaires avec 'n_shot' comme clé
     timings_std_map = {item['n_shot']: item for item in timings_std_list}

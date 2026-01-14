@@ -12,37 +12,41 @@ import time
 import copy
 from sklearn.model_selection import train_test_split
 import multiprocessing
+from tqdm import tqdm  # Ajout pour la barre de chargement
 
-# --- CONFIGURATION ---
+# config
 DATA_DIR = os.path.join('Data', 'data_new_few_shot') 
 METADATA_PATH = os.path.join('Data', 'metadata_images.json')
 
 OUTPUT_DIR = "Data"
 TIMING_FILE = os.path.join(OUTPUT_DIR, "training_summary_finetuning_optimized.json")
+DETAILED_TIMING_FILE = os.path.join(OUTPUT_DIR, "detailed_timings_log.json") # Nouveau fichier pour les stats détaillées
 
 # Hyperparamètres
 SEED = 123
-EPOCHS_WARMUP = 4       # Phase 1 : Chauffe du classifier
-EPOCHS_FINETUNE = 4     # Phase 2 : Ajustement fin du modèle complet
+EPOCHS_WARMUP = 4       # Phase 1 : chauffe du classifier
+EPOCHS_FINETUNE = 4     # Phase 2 : ajustement fin du modèle complet
 
-# Learning Rates
+# learning ates
 LR_WARMUP = 1e-3        # Rapide pour la tête
 LR_BACKBONE = 1e-6      # Très lent pour BioClip (chirurgical)
 LR_HEAD_FT = 1e-5       # Lent pour la tête en phase 2
 
-# Optimisation Mémoire & Vitesse
-PHYSICAL_BATCH_SIZE = 8       # Ce qui rentre réellement dans la VRAM (6GB friendly)
-GRADIENT_ACCUMULATION = 4     # On accumule pour simuler un batch de 32 (8*4)
+# mémoire
+PHYSICAL_BATCH_SIZE = 8       
+GRADIENT_ACCUMULATION = 4     
 HIDDEN_DIM = 512        
 
-# Optimisation CPU
-# On utilise les coeurs CPU pour charger les images en parallèle du GPU
+# On prend tous les coeurs CPU pour charger les images en parallèle du GPU
 NUM_WORKERS = min(8, os.cpu_count()) 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Use of {device} with {NUM_WORKERS} CPU workers for data loading.")
 
-# --- 1. CHARGEMENT MÉTADONNÉES ---
+# Liste globale pour stocker toutes les datas de timing
+ALL_DETAILED_STATS = []
+
+# Chargement données
 print("Chargement taxonomie...")
 TAXONOMY_MAP = {}
 try:
@@ -61,7 +65,7 @@ try:
 except FileNotFoundError:
     print("Metadata introuvable.")
 
-# --- 2. DATASET & MODÈLE ---
+# Dataset + modele
 
 class LazyBugDataset(Dataset):
     def __init__(self, file_paths, labels, preprocess_fn):
@@ -87,11 +91,11 @@ class BioClipMLP(nn.Module):
         super(BioClipMLP, self).__init__()
         self.visual = bioclip_model.visual 
         
-        # Le Classifier demandé : 2 couches cachées ReLU
+        # Classifier avec 2 couches cachées ReLU
         self.classifier = nn.Sequential(
             nn.Linear(768, hidden_dim),
             nn.ReLU(),
-            nn.Dropout(0.3), # Dropout un peu plus fort pour éviter l'overfitting
+            nn.Dropout(0.3),
             nn.Linear(hidden_dim, hidden_dim),
             nn.ReLU(),
             nn.Dropout(0.3),
@@ -100,7 +104,7 @@ class BioClipMLP(nn.Module):
 
     def forward(self, x):
         features = self.visual(x) 
-        # On normalise souvent les features CLIP avant classification
+        # normalisation
         features = features / features.norm(dim=-1, keepdim=True)
         return self.classifier(features)
     
@@ -114,7 +118,7 @@ class BioClipMLP(nn.Module):
         for param in self.visual.parameters():
             param.requires_grad = True
 
-# --- 3. PRÉPARATION DONNÉES ---
+# Split des données
 def prepare_data_split(root_dir, preprocess_fn):
     random.seed(SEED)
     classes = sorted([d for d in os.listdir(root_dir) if os.path.isdir(os.path.join(root_dir, d))])
@@ -131,7 +135,7 @@ def prepare_data_split(root_dir, preprocess_fn):
             all_paths.append(os.path.join(cls_path, f))
             all_labels.append(cls_idx)
             
-    # Stratify split 80/20
+            
     X_train, X_test, y_train, y_test = train_test_split(
         all_paths, all_labels, test_size=0.20, random_state=SEED, stratify=all_labels
     )
@@ -143,7 +147,7 @@ def prepare_data_split(root_dir, preprocess_fn):
     
     return train_ds, test_ds, classes
 
-# --- 4. FONCTION D'ENTRAINEMENT OPTIMISÉE ---
+# Training function
 def run_training_phase(model, loader, criterion, optimizer, scaler, epochs, phase_name):
     print(f"\n--- STARTING {phase_name} ({epochs} Epochs) ---")
     
@@ -155,53 +159,113 @@ def run_training_phase(model, loader, criterion, optimizer, scaler, epochs, phas
         
         optimizer.zero_grad()
         
-        # Loader itère en utilisant le CPU en parallèle
-        for i, (batch_imgs, batch_lbls, _) in enumerate(loader):
+        # Initialisation du timer de début de cycle
+        t_cycle_start = time.time()
+        
+        # Ajout de tqdm pour la barre de chargement
+        pbar = tqdm(enumerate(loader), total=len(loader), desc=f"Epoch {epoch+1}/{epochs}")
+        
+        for i, (batch_imgs, batch_lbls, _) in pbar:
+            
+            # --- MEASURE LOADING ---
+            t_data_loaded = time.time()
+            loading_seconds = t_data_loaded - t_cycle_start
+            
             # non_blocking=True permet de transférer pendant que le GPU calcule autre chose
             batch_imgs = batch_imgs.to(device, non_blocking=True)
             batch_lbls = batch_lbls.to(device, non_blocking=True)
             
-            # --- MIXED PRECISION (AMP) ---
+            # AMP
             with torch.amp.autocast('cuda', enabled=(device=="cuda")):
                 outputs = model(batch_imgs)
                 loss = criterion(outputs, batch_lbls)
                 # Normalisation pour l'accumulation de gradients
                 loss = loss / GRADIENT_ACCUMULATION 
             
-            # Backprop avec scaling (pour éviter underflow float16)
             scaler.scale(loss).backward()
             
-            # --- GRADIENT ACCUMULATION ---
-            # On met à jour les poids uniquement tous les X batchs
+            # Gradient accumulation on met à jour les poids uniquement tous les X batchs
             if (i + 1) % GRADIENT_ACCUMULATION == 0:
                 scaler.step(optimizer)
                 scaler.update()
                 optimizer.zero_grad()
+
+            # Synchronisation optionnelle pour avoir un temps d'inférence précis sur GPU
+            if device == "cuda":
+                torch.cuda.synchronize()
+
+            # --- MEASURE INFERENCE ---
+            t_inference_done = time.time()
+            inference_seconds = t_inference_done - t_data_loaded
             
-            # Stats (on remultiplie la loss pour l'affichage correct)
-            total_loss += loss.item() * GRADIENT_ACCUMULATION
+            # Stats
+            loss_val = loss.item() * GRADIENT_ACCUMULATION
+            total_loss += loss_val
             _, predicted = outputs.max(1)
             total += batch_lbls.size(0)
             correct += predicted.eq(batch_lbls).sum().item()
+            
+            # --- MEASURE FORMATTING ---
+            t_formatting_done = time.time()
+            formatting_seconds = t_formatting_done - t_inference_done
+            
+            # --- MEASURE SAVING (Aucune sauvegarde disque ici, donc 0, mais on garde la structure) ---
+            saving_seconds = 0.0
+            
+            # --- TOTAL CYCLE ---
+            total_cycle_seconds = t_formatting_done - t_cycle_start
+            
+            # Stockage des données
+            ALL_DETAILED_STATS.append({
+                "phase": phase_name,
+                "epoch": epoch + 1,
+                "batch": i,
+                "loading_seconds": loading_seconds,
+                "inference_seconds": inference_seconds,
+                "formatting_seconds": formatting_seconds,
+                "saving_seconds": saving_seconds,
+                "total_cycle_seconds": total_cycle_seconds
+            })
+            
+            # Reset timer pour le prochain cycle (qui commencera par le loading du prochain batch)
+            t_cycle_start = time.time()
+            
+            # Mise à jour barre chargement
+            pbar.set_postfix({"loss": f"{loss_val:.4f}"})
         
         avg_loss = total_loss / len(loader)
         acc = 100. * correct / total
         print(f"[{phase_name}] Epoch {epoch+1}/{epochs} | Loss: {avg_loss:.4f} | Acc: {acc:.2f}%")
 
-# --- 5. EVALUATION ---
+# Evaluation function
 def evaluate_and_generate_json(model, loader, class_names):
     model.eval()
     session_results = []
     print("\nStarting evaluation on Test set...")
     
+    t_start_eval = time.time()
+    
+    # Ajout barre de chargement
+    pbar = tqdm(loader, desc="Evaluation")
+    
     with torch.no_grad():
-        for batch_imgs, batch_lbls, batch_paths in loader:
+        for batch_imgs, batch_lbls, batch_paths in pbar:
+            
+            t_load_done = time.time()
+            loading_seconds = t_load_done - t_start_eval
+            
             batch_imgs = batch_imgs.to(device, non_blocking=True)
             
-            # Même en inférence, on utilise AMP pour aller plus vite
+            # AMP
             with torch.amp.autocast('cuda', enabled=(device=="cuda")):
                 outputs = model(batch_imgs)
                 probs = F.softmax(outputs, dim=1)
+            
+            if device == "cuda":
+                torch.cuda.synchronize()
+                
+            t_infer_done = time.time()
+            inference_seconds = t_infer_done - t_load_done
             
             top5_probs, top5_indices = probs.topk(5, dim=1)
             
@@ -238,13 +302,33 @@ def evaluate_and_generate_json(model, loader, class_names):
                     "real_family": info_real.get("family"),
                     "top5": top5_list
                 })
+            
+            t_format_done = time.time()
+            formatting_seconds = t_format_done - t_infer_done
+            
+            # Saving is 0 here (done at end)
+            saving_seconds = 0.0
+            total_cycle_seconds = t_format_done - t_start_eval
+            
+            ALL_DETAILED_STATS.append({
+                "phase": "EVALUATION",
+                "epoch": 0,
+                "batch": "eval_batch",
+                "loading_seconds": loading_seconds,
+                "inference_seconds": inference_seconds,
+                "formatting_seconds": formatting_seconds,
+                "saving_seconds": saving_seconds,
+                "total_cycle_seconds": total_cycle_seconds
+            })
+            
+            t_start_eval = time.time() # Reset for next
                 
     return session_results
 
-# --- MAIN ---
+# main
 if __name__ == "__main__":
-    # Optimisation Windows/Linux pour DataLoader
-    torch.backends.cudnn.benchmark = True # Accélère si la taille des images est constante
+
+    torch.backends.cudnn.benchmark = True # Accélère vu que la taille des images est constante
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     all_timings = []
@@ -252,11 +336,11 @@ if __name__ == "__main__":
     
     t_global_start = time.time()
     
-    # 1. Loading
+    # Loading
     print("Loading BioClip backbone...")
     clip_model, _, preprocess = open_clip.create_model_and_transforms('hf-hub:imageomics/bioclip-2')
     
-    # 2. Data Preparation
+    # Data Preparation
     train_ds, test_ds, class_names = prepare_data_split(DATA_DIR, preprocess)
     
     # OPTIMISATION CPU : num_workers > 0 et pin_memory=True
@@ -277,14 +361,13 @@ if __name__ == "__main__":
         pin_memory=True
     )
     
-    # 3. Init Model
+    # Init Model
     full_model = BioClipMLP(clip_model, len(class_names), hidden_dim=HIDDEN_DIM).to(device)
     criterion = nn.CrossEntropyLoss()
     scaler = torch.amp.GradScaler('cuda', enabled=(device=="cuda"))
     
-    # ==========================================
     # PHASE 1 : WARMUP (Classifier Only)
-    # ==========================================
+    
     full_model.freeze_backbone() 
     
     optimizer_warmup = optim.AdamW(full_model.classifier.parameters(), lr=LR_WARMUP)
@@ -293,9 +376,9 @@ if __name__ == "__main__":
     run_training_phase(full_model, train_loader, criterion, optimizer_warmup, scaler, EPOCHS_WARMUP, "PHASE 1 - WARMUP")
     current_timing["phase1_seconds"] = round(time.time() - t_p1_start, 4)
     
-    # ==========================================
+
     # PHASE 2 : FULL FINE-TUNING (Backbone + Head)
-    # ==========================================
+
     full_model.unfreeze_backbone() 
     
     param_groups = [
@@ -308,17 +391,37 @@ if __name__ == "__main__":
     run_training_phase(full_model, train_loader, criterion, optimizer_finetune, scaler, EPOCHS_FINETUNE, "PHASE 2 - DEEP FINETUNE")
     current_timing["phase2_seconds"] = round(time.time() - t_p2_start, 4)
     
-    # 5. Eval
+    # Eval
     results_json = evaluate_and_generate_json(full_model, test_loader, class_names)
     
+    # SAVE RESULTS
+    t_save_start = time.time()
     output_json_path = os.path.join(OUTPUT_DIR, "predictions_finetuned_testset.json")
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(results_json, f, ensure_ascii=False, indent=2)
+    t_save_end = time.time()
+    
+    # Ajout du temps de sauvegarde finale dans les stats détaillées
+    ALL_DETAILED_STATS.append({
+        "phase": "FINAL_SAVE",
+        "epoch": 0,
+        "batch": 0,
+        "loading_seconds": 0,
+        "inference_seconds": 0,
+        "formatting_seconds": 0,
+        "saving_seconds": t_save_end - t_save_start,
+        "total_cycle_seconds": t_save_end - t_save_start
+    })
         
     print(f"Done! Results saved to {output_json_path}")
     
-    # Timings
+    # Timings Global
     current_timing["total_seconds"] = round(time.time() - t_global_start, 4)
     all_timings.append(current_timing)
     with open(TIMING_FILE, "w", encoding="utf-8") as f:
         json.dump(all_timings, f, indent=2)
+
+    # Save Detailed Timings
+    print(f"Saving detailed timings to {DETAILED_TIMING_FILE}...")
+    with open(DETAILED_TIMING_FILE, "w", encoding="utf-8") as f:
+        json.dump(ALL_DETAILED_STATS, f, indent=2)

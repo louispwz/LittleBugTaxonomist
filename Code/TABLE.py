@@ -3,11 +3,10 @@ import pandas as pd
 
 def json_to_csv(input_file, output_file):
     try:
-        # 1. Chargement du fichier JSON
         with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-        # 2. Extraction des données
+        # Extraction 
         rows = []
         for entry in data:
             metrics = entry.get('metrics', {}).get('top1_accuracy', {})
@@ -34,10 +33,9 @@ def json_to_csv(input_file, output_file):
             }
             rows.append(row)
 
-        # 3. Création du DataFrame
+        # DataFrame
         df = pd.DataFrame(rows)
 
-        # 4. Réorganisation des colonnes
         col_order = [
             'Technique', 
             'N Shot', 
@@ -54,8 +52,8 @@ def json_to_csv(input_file, output_file):
         
         df = df.reindex(columns=col_order)
 
-        # 5. Export vers CSV (CORRECTION ICI : sep=';')
-        # On utilise sep=';' pour Excel français et decimal=',' si besoin pour les chiffres
+        # Export vers CSV
+
         df.to_csv(output_file, index=False, encoding='utf-8-sig', sep=';')
         
         print(f"Succès ! Le fichier '{output_file}' a été créé (format Excel FR).")
