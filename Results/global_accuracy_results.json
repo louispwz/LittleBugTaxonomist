@@ -12,6 +12,16 @@
                     "accuracy": "33.20%",
                     "correct": "166/500"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "22.80%",
+                    "correct": "114/500"
+                },
+                "genus": {
+                    "accuracy": "41.00%",
+                    "correct": "205/500"
+                }
             }
         }
     },
@@ -27,6 +37,16 @@
                 "genus": {
                     "accuracy": "88.89%",
                     "correct": "288/324"
+                }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "100.00%",
+                    "correct": "324/324"
+                },
+                "genus": {
+                    "accuracy": "100.00%",
+                    "correct": "324/324"
                 }
             }
         }
@@ -44,6 +64,16 @@
                     "accuracy": "95.78%",
                     "correct": "295/308"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "100.00%",
+                    "correct": "308/308"
+                },
+                "genus": {
+                    "accuracy": "100.00%",
+                    "correct": "308/308"
+                }
             }
         }
     },
@@ -59,6 +89,16 @@
                 "genus": {
                     "accuracy": "95.14%",
                     "correct": "274/288"
+                }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "100.00%",
+                    "correct": "288/288"
+                },
+                "genus": {
+                    "accuracy": "100.00%",
+                    "correct": "288/288"
                 }
             }
         }
@@ -76,6 +116,16 @@
                     "accuracy": "95.18%",
                     "correct": "217/228"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "100.00%",
+                    "correct": "228/228"
+                },
+                "genus": {
+                    "accuracy": "100.00%",
+                    "correct": "228/228"
+                }
             }
         }
     },
@@ -91,6 +141,16 @@
                 "genus": {
                     "accuracy": "96.09%",
                     "correct": "123/128"
+                }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "100.00%",
+                    "correct": "128/128"
+                },
+                "genus": {
+                    "accuracy": "100.00%",
+                    "correct": "128/128"
                 }
             }
         }
@@ -108,6 +168,16 @@
                     "accuracy": "76.24%",
                     "correct": "2188/2870"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "72.61%",
+                    "correct": "2084/2870"
+                },
+                "genus": {
+                    "accuracy": "94.25%",
+                    "correct": "2705/2870"
+                }
             }
         }
     },
@@ -123,6 +193,16 @@
                 "genus": {
                     "accuracy": "88.92%",
                     "correct": "2552/2870"
+                }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "90.35%",
+                    "correct": "2593/2870"
+                },
+                "genus": {
+                    "accuracy": "97.49%",
+                    "correct": "2798/2870"
                 }
             }
         }
@@ -140,6 +220,16 @@
                     "accuracy": "90.94%",
                     "correct": "2610/2870"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "93.48%",
+                    "correct": "2683/2870"
+                },
+                "genus": {
+                    "accuracy": "98.40%",
+                    "correct": "2824/2870"
+                }
             }
         }
     },
@@ -156,6 +246,16 @@
                     "accuracy": "92.58%",
                     "correct": "2657/2870"
                 }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "95.26%",
+                    "correct": "2734/2870"
+                },
+                "genus": {
+                    "accuracy": "98.64%",
+                    "correct": "2831/2870"
+                }
             }
         }
     },
@@ -171,6 +271,16 @@
                 "genus": {
                     "accuracy": "92.29%",
                     "correct": "2562/2776"
+                }
+            },
+            "top5_accuracy": {
+                "species": {
+                    "accuracy": "94.31%",
+                    "correct": "2618/2776"
+                },
+                "genus": {
+                    "accuracy": "98.63%",
+                    "correct": "2738/2776"
                 }
             }
         }

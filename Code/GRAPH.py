@@ -19,7 +19,7 @@ def generer_graphiques_v2(input_file):
 
     sns.set_theme(style="whitegrid")
     
-    # graph 1 : evolution precision espece
+    # graph 1 : evolution precision espece top1
     plt.figure(figsize=(10, 6))
     sns.scatterplot(
         data=df, 
@@ -37,11 +37,11 @@ def generer_graphiques_v2(input_file):
     
     plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
     
-    filename1 = f"{output_dir}/Graphique_1_evolution_precision.png"
+    filename1 = f"{output_dir}/Graphique_1_evolution_precision_espece_top1.png"
     plt.savefig(filename1, dpi=300, bbox_inches='tight')
     plt.close()
 
-    # graph 1,5 evolution precision genre
+    # graph 1,5 evolution precision genre top1
     plt.figure(figsize=(10, 6))
     sns.scatterplot(
         data=df, 
@@ -58,12 +58,12 @@ def generer_graphiques_v2(input_file):
     plt.ylim(0, 100)
     plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
     
-    filename1_5 = f"{output_dir}/Graphique_1,5_evolution_precision.png"
+    filename1_5 = f"{output_dir}/Graphique_1,5_evolution_precision_genre_top1.png"
     plt.savefig(filename1_5, dpi=300, bbox_inches='tight')
     plt.close()
     
     
-    # graph 2 : espece vs genre all dataset
+    # graph 2 : espece vs genre all dataset top1
     technique_name = "PREDICTIONS FEW SHOT all dataset"
     df_subset = df[df['Technique'] == technique_name]
 
@@ -85,11 +85,11 @@ def generer_graphiques_v2(input_file):
         plt.ylim(0, 105)
         plt.legend(loc='lower right')
         
-        filename2 = f"{output_dir}/Graphique_2_espece_vs_genre.png"
+        filename2 = f"{output_dir}/Graphique_2_espece_vs_genre_alldataset_top1.png"
         plt.savefig(filename2, dpi=300, bbox_inches='tight')
         plt.close()
 
-# graph 2,5 : espece vs genre sur 4 especes
+# graph 2,5 : espece vs genre sur 4 especes top1
     technique_name = "PREDICTIONS FEW SHOT sur 4 especes"
     df_subset = df[df['Technique'] == technique_name]
 
@@ -111,7 +111,7 @@ def generer_graphiques_v2(input_file):
         plt.ylim(0, 105)
         plt.legend(loc='lower right')
         
-        filename2 = f"{output_dir}/Graphique_2,5_espece_vs_genre.png"
+        filename2 = f"{output_dir}/Graphique_2,5_espece_vs_genre_4especes_top1.png"
         plt.savefig(filename2, dpi=300, bbox_inches='tight')
         plt.close()
         
@@ -154,10 +154,30 @@ def generer_graphiques_v2(input_file):
         plt.yscale("log")
         plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left')
         
-        filename3 = f"{output_dir}/Graphique_3,5_temps_inference.png"
+        filename3 = f"{output_dir}/Graphique_3,5_temps_inference_log.png"
         plt.savefig(filename3, dpi=300, bbox_inches='tight')
         plt.close()
 
+        # graph 4 evolution precision espece top5
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 # main
 
 if __name__ == "__main__":
