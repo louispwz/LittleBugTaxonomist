@@ -71,19 +71,21 @@ def main(tar_path="Data/small_database.tar", metadata_path="Data/metadata_images
                 'family': gb.get('family')
             }
 
-    # label hierarchique
+    # label hierarchique 
     prompts = []
     for label in unique_candidate:
         info = candidate_info.get(label, {})
-        family = info.get('family') or "unknown family"
-        genus = info.get('genus') or "unknown genus"
-        if family != "unknown family" or genus != "unknown genus":
-            # label famille + genre + espece
-            prompts = [f"Kingdom : Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: {family}, Genus: {genus}, Species: {label}"]
-        else:
-            # label espece seul
-            prompts = [f"image of an insect belonging to the species {label}"]
+        family = info.get('family')
+        genus = info.get('genus')
 
+        if family or genus:
+            family_str = family if family else "unknown family"
+            genus_str = genus if genus else "unknown genus"
+            prompts.append(
+                f"Kingdom: Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: {family_str}, Genus: {genus_str}, Species: {label}"
+            )
+        else:
+            prompts.append(f"image of an insect belonging to the species {label}")
     # autres options (décommenter pour tester)
     # label plat
     # prompts = [f"image of an insect {label}" for label in unique_candidate]
@@ -97,16 +99,7 @@ def main(tar_path="Data/small_database.tar", metadata_path="Data/metadata_images
         text_features = model.encode_text(text_tokens)
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-    # build de candidate_info et mapping metadata
-    candidate_info = {}
-    for bug in meta:
-        gb = bug.get('gbif') or {}
-        canonical = gb.get('canonicalName') if isinstance(gb, dict) else None
-        if canonical and canonical not in candidate_info:
-            candidate_info[canonical] = {
-                'genus': gb.get('genus'),
-                'family': gb.get('family')
-            }
+
 
     # Iterattion sur tout les images, cherche top5
     
