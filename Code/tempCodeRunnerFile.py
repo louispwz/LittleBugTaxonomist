@@ -1,161 +1,151 @@
-import os
-import tarfile
-import json
-from PIL import Image
-import clip
 import torch
+import clip
+import json
+import tarfile
+import io
 import random
-import string
-from Dataset_shrinker import dataset_shrinker
-from Metadata_dataset import extract_metadata_from_tar
+import numpy as np
+from PIL import Image
+from torch.utils.data import Dataset, DataLoader
+from torch import nn, optim
+from tqdm import tqdm
+from sklearn.metrics import accuracy_score
 
+# Configuration
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+METADATA_PATH = 'Data/metadata_images.json'
+DATASET_TAR = 'Data/small_database.tar'
+BATCH_SIZE = 8 
+ACCUMULATION_STEPS = 4
+EPOCHS = 10
+LR = 1e-5  # Augmenté pour compenser la lenteur du CPU
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+def collate_fn(batch):
+    batch = list(filter(lambda x: x is not None, batch))
+    if len(batch) == 0: return None
+    return torch.utils.data.dataloader.default_collate(batch)
 
+class CarabidDataset(Dataset):
+    def __init__(self, metadata_list, tar_path, preprocess):
+        self.metadata = metadata_list
+        self.tar_path = tar_path
+        self.preprocess = preprocess
+        self.tar = None
 
-def predict_image_zero_shot(image_file, candidate_labels, model, preprocess, device):
-    image = Image.open(image_file).convert("RGB")
-    image_input = preprocess(image).unsqueeze(0).to(device)
-    with torch.no_grad():
-        image_features = model.encode_image(image_input)
-    textes = [f"an insect belonging to the species {label}" for label in candidate_labels]
-    texte_tokens = clip.tokenize(textes).to(device)
-    with torch.no_grad():
-        text_features = model.encode_text(texte_tokens)
-    image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-    logits = 100.0 * image_features @ text_features.T
-    probs = logits.softmax(dim=-1)[0].cpu().numpy()
-    idx = probs.argsort()[::-1]
-    return [(candidate_labels[i], float(probs[i])) for i in idx]
+    def __len__(self):
+        return len(self.metadata)
 
+    def __getitem__(self, idx):
+        if self.tar is None:
+            self.tar = tarfile.open(self.tar_path, "r")
+        item = self.metadata[idx]
+        try:
+            member = self.tar.getmember(item['archive_path'])
+            f = self.tar.extractfile(member)
+            image = self.preprocess(Image.open(io.BytesIO(f.read())))
+            # Prompt hiérarchique pour tester l'impact taxonomique
+            prompt = f"Kingdom: Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: Carabidae, Genus: {item['gbif']['genus']}, Species: {item['gbif']['species']}"
+            tokens = clip.tokenize([prompt], truncate=True)[0]
+            return image, tokens, item['gbif']['species'], item['gbif']['genus']
+        except Exception:
+            return None
 
-def main(tar_path="Data/small_database.tar", metadata_path="Data/metadata_images.json"):
-    if not os.path.exists(tar_path):
-        raise FileNotFoundError(f"Pas de fichier .tar {tar_path}")
-
-    # si pas de metadata genere
-    if not os.path.exists(metadata_path):
-        extract_metadata_from_tar(tar_path=tar_path, out_json_path=metadata_path)
-
-    # load des metadata
-    with open(metadata_path, "r", encoding="utf-8") as f:
-        meta = json.load(f)
-
-    bug_metadata = {}
-    unique_candidate = set()
-    for bug in meta:
-        fold_num = bug.get("folder_number")
-        gbif_info = bug.get("gbif")
-        if gbif_info is not None:
-            canonical_name = gbif_info.get("canonicalName")
-            bug_metadata[fold_num] = canonical_name
-            if canonical_name is not None:
-                unique_candidate.add(canonical_name)
-
-    unique_candidate = sorted(list(unique_candidate))
-    if len(unique_candidate) == 0:
-        raise RuntimeError("Pas de candidats dans les metadata")
-
-    # modele CLIP ViT-L/14 
-    model, preprocess = clip.load('ViT-L/14', device=device)
-    model.to(device)
-    # label hierarchique
-    # prompts = [f"image of an insect belonging to the species {label}" for label in unique_candidate]
-    # label plat
-    # prompts = [f"image of an insect {label}" for label in unique_candidate]
-    # texte constant
-    # prompts = [f"image of an insect" for label in unique_candidate]
-    # texte random
-    prompts = ["".join(random.choices(string.ascii_uppercase + string.digits, k=10)) for label in unique_candidate]
-    text_tokens = clip.tokenize(prompts).to(device)
-    with torch.no_grad():
-        text_features = model.encode_text(text_tokens)
-        text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-
-    # build de candidate_info et mapping metadata
-    candidate_info = {}
-    for bug in meta:
-        gb = bug.get('gbif') or {}
-        canonical = gb.get('canonicalName') if isinstance(gb, dict) else None
-        if canonical and canonical not in candidate_info:
-            candidate_info[canonical] = {
-                'genus': gb.get('genus'),
-                'family': gb.get('family')
-            }
-
-    # Iterattion sur tout les images, cherche top5
+def validate(model, loader, species_list, species_to_genus):
+    model.eval()
+    all_prompts = [f"Kingdom: Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: Carabidae, Genus: {species_to_genus[s]}, Species: {s}" for s in species_list]
+    all_tokens = clip.tokenize(all_prompts).to(device)
     
-    results = []
-    total = 0
-    skipped = 0
-    with tarfile.open(tar_path, 'r:*') as tar:
-        for member in tar.getmembers():
-            if not member.isfile():
-                continue
-            if not member.name.lower().endswith(('.jpg', '.jpeg', '.png')):
-                continue
-            total += 1
-            try:
-                with tar.extractfile(member) as f:
-                    try:
-                        image = Image.open(f).convert('RGB')
-                    except Exception as e_img:
-                        skipped += 1
-                        print(f"ne peut pas ouvrir {member.name}: {e_img}")
-                        continue
-                    image_input = preprocess(image).unsqueeze(0).to(device)
-                    with torch.no_grad():
-                        image_features = model.encode_image(image_input)
-                        image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-                        logits = 100.0 * image_features @ text_features.T
-                        probs = logits.softmax(dim=-1)[0].cpu().numpy()
-                        idxs = probs.argsort()[::-1][:5]
-                        top5 = []
-                        for i in idxs:
-                            lab = unique_candidate[i]
-                            prob = float(probs[i])
-                            info = candidate_info.get(lab, {})
-                            top5.append({
-                                'label': lab,
-                                'prob': prob,
-                                'genus': info.get('genus'),
-                                'family': info.get('family')
-                            })
+    y_true_sp, y_pred_sp, y_true_ge, y_pred_ge = [], [], [], []
+    
+    with torch.no_grad():
+        text_features = model.encode_text(all_tokens)
+        text_features /= text_features.norm(dim=-1, keepdim=True)
 
-                parts = member.name.split('/')
-                folder_number = None
-                if len(parts) >= 2:
-                    try:
-                        folder_number = int(parts[-2])
-                    except Exception:
-                        folder_number = None
+        for batch in tqdm(loader, desc="Validation"):
+            if batch is None: continue
+            images, _, sp_names, ge_names = batch
+            img_feat = model.encode_image(images.to(device))
+            img_feat /= img_feat.norm(dim=-1, keepdim=True)
+            
+            # Calcul de similarité cosinus
+            probs = (100.0 * img_feat @ text_features.T).softmax(dim=-1).cpu().numpy()
+            
+            # Debug : Visualisation du Top 5 pour vérifier si le modèle "hésite"
+            top5_idx = np.argsort(probs[0])[-5:][::-1]
+            print(f"\nDEBUG Image 0: True={sp_names[0]} | Preds={[species_list[i] for i in top5_idx]}")
+            
+            for i, prob in enumerate(probs):
+                pred_idx = np.argmax(prob)
+                y_true_sp.append(sp_names[i])
+                y_pred_sp.append(species_list[pred_idx])
+                y_true_ge.append(ge_names[i])
+                
+                # [cite_start]Agrégation par genre (impact de la hiérarchie) [cite: 139]
+                gen_probs = {}
+                for idx, p in enumerate(prob):
+                    g = species_to_genus[species_list[idx]]
+                    gen_probs[g] = gen_probs.get(g, 0) + p
+                y_pred_ge.append(max(gen_probs, key=gen_probs.get))
 
-                real_name = bug_metadata.get(folder_number)
-                real_info = candidate_info.get(real_name, {}) if real_name else {}
-                results.append({
-                    'archive_path': member.name,
-                    'folder_number': folder_number,
-                    'real_name': real_name,
-                    'real_genus': real_info.get('genus'),
-                    'real_family': real_info.get('family'),
-                    'top5': top5
-                })
+    return accuracy_score(y_true_sp, y_pred_sp), accuracy_score(y_true_ge, y_pred_ge)
 
-                if total % 100 == 0:
-                    print(f"{total} images, resultats: {len(results)}")
+def main():
+    print(f"Device: {device.upper()}")
+    # Utilisation de ViT-B/32 pour permettre l'exécution sur CPU
+    model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+    
+    with open(METADATA_PATH, 'r') as f:
+        meta = json.load(f)
+    
+    # [cite_start]Identification à l'espèce requise pour l'étude [cite: 112]
+    valid_data = [m for m in meta if m.get('gbif') and m['gbif'].get('species')]
+    species_list = sorted(list(set([m['gbif']['species'] for m in valid_data])))
+    species_to_genus = {m['gbif']['species']: m['gbif']['genus'] for m in valid_data}
+    
+    random.seed(123)
+    random.shuffle(valid_data)
+    # Split 50/20 conforme à Hansen et al. (2019) [cite_start][cite: 122]
+    train_data = valid_data[:int(len(valid_data)*0.5)] 
+    val_data = valid_data[int(len(valid_data)*0.5):int(len(valid_data)*0.7)] 
 
-            except Exception as e:
-                skipped += 1
-                print(f"Warning: unexpected error on {member.name}: {e}")
+    train_loader = DataLoader(CarabidDataset(train_data, DATASET_TAR, preprocess), 
+                              batch_size=BATCH_SIZE, shuffle=True, num_workers=0, collate_fn=collate_fn)
+    val_loader = DataLoader(CarabidDataset(val_data, DATASET_TAR, preprocess), 
+                            batch_size=BATCH_SIZE, num_workers=0, collate_fn=collate_fn)
 
-    out_path = os.path.join(os.path.dirname(metadata_path) or '.', 'viT_predictions_random.json')
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+    optimizer = optim.AdamW(model.parameters(), lr=LR, weight_decay=0.1)
+    loss_fn = nn.CrossEntropyLoss()
+    scaler = torch.amp.GradScaler(device=device, enabled=(device == 'cuda'))
 
-    print(f"Finished. Processed={total}, skipped={skipped}, saved={len(results)} -> {out_path}")
+    for epoch in range(EPOCHS):
+        model.train()
+        optimizer.zero_grad()
+        pbar = tqdm(train_loader, desc=f"Train E{epoch}")
+        
+        for i, batch in enumerate(pbar):
+            if batch is None: continue
+            images, tokens = batch[0].to(device), batch[1].to(device)
+            
+            with torch.amp.autocast(device_type=device):
+                # Calcul de la perte contrastive (image <-> texte)
+                logits_img, logits_txt = model(images, tokens)
+                ground_truth = torch.arange(len(images), device=device)
+                
+                # Perte symétrique
+                loss = (loss_fn(logits_img, ground_truth) + loss_fn(logits_txt, ground_truth)) / 2
+                loss = loss / ACCUMULATION_STEPS
 
+            scaler.scale(loss).backward()
+            if (i + 1) % ACCUMULATION_STEPS == 0:
+                scaler.step(optimizer)
+                scaler.update()
+                optimizer.zero_grad()
+            pbar.set_postfix(loss=loss.item() * ACCUMULATION_STEPS)
+        
+        # [cite_start]Validation : Comparaison avec les scores de Hansen (51.9% Sp, 74.9% Gen) [cite: 32]
+        acc_sp, acc_ge = validate(model, val_loader, species_list, species_to_genus)
+        print(f"\nRESULTATS E{epoch} - Accuracy Espèce: {acc_sp:.2%}, Accuracy Genre: {acc_ge:.2%}")
+        torch.save(model.state_dict(), f"carabid_clip_e{epoch}.pt")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

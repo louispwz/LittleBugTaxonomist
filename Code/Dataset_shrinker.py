@@ -60,4 +60,4 @@ def dataset_shrinker(input_tar, n_folders, n_files, output_tar, seed=None):
 ################
 
 if __name__ == "__main__":
-    dataset_shrinker(input_tar="Data/database.tar",n_folders=50,n_files=50, output_tar="Data/small_database.tar")
+    dataset_shrinker(input_tar="Data/database.tar",n_folders=100,n_files=10, output_tar="Data/small_database.tar")
