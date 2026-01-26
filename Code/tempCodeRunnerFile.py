@@ -18,8 +18,9 @@ DATASET_TAR = 'Data/small_database.tar'
 BATCH_SIZE = 8 
 ACCUMULATION_STEPS = 4
 EPOCHS = 10
-LR = 1e-5  # Augmenté pour compenser la lenteur du CPU
-
+LR = 1e-5  
+# Few-shot config
+FEW_SHOT_SHOTS = 50
 def collate_fn(batch):
     batch = list(filter(lambda x: x is not None, batch))
     if len(batch) == 0: return None
@@ -43,109 +44,162 @@ class CarabidDataset(Dataset):
             member = self.tar.getmember(item['archive_path'])
             f = self.tar.extractfile(member)
             image = self.preprocess(Image.open(io.BytesIO(f.read())))
-            # Prompt hiérarchique pour tester l'impact taxonomique
             prompt = f"Kingdom: Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: Carabidae, Genus: {item['gbif']['genus']}, Species: {item['gbif']['species']}"
             tokens = clip.tokenize([prompt], truncate=True)[0]
             return image, tokens, item['gbif']['species'], item['gbif']['genus']
         except Exception:
             return None
 
-def validate(model, loader, species_list, species_to_genus):
+
+def run_few_shot(model, meta, train_data, val_data, tar_path, preprocess, n_shot=20):
+    """Build prototypes from `train_data` using up to `n_shot` examples per species,
+    then evaluate on `val_data` (both lists are metadata entries)."""
     model.eval()
-    all_prompts = [f"Kingdom: Animalia, Phylum: Arthropoda, Class: Insecta, Order: Coleoptera, Family: Carabidae, Genus: {species_to_genus[s]}, Species: {s}" for s in species_list]
-    all_tokens = clip.tokenize(all_prompts).to(device)
-    
-    y_true_sp, y_pred_sp, y_true_ge, y_pred_ge = [], [], [], []
-    
+
+    # group train examples by species
+    species_to_items = {}
+    for item in train_data:
+        sp = item['gbif']['species']
+        species_to_items.setdefault(sp, []).append(item)
+
+    # only keep species that have at least one support example
+    support_species = []
+    support_images = []
+    support_labels = []
+
+    # open tar once
+    tar = tarfile.open(tar_path, 'r')
+
+    for sp_idx, (sp, items) in enumerate(sorted(species_to_items.items())):
+        # take up to n_shot
+        chosen = items[:n_shot]
+        if len(chosen) == 0:
+            continue
+        # collect images
+        imgs = []
+        for it in chosen:
+            try:
+                member = tar.getmember(it['archive_path'])
+                f = tar.extractfile(member)
+                img = Image.open(io.BytesIO(f.read())).convert('RGB')
+                imgs.append(preprocess(img))
+            except Exception:
+                continue
+        if len(imgs) == 0:
+            continue
+        # register species
+        support_species.append(sp)
+        support_images.extend(imgs)
+        support_labels.extend([len(support_species)-1] * len(imgs))
+
+    if len(support_images) == 0:
+        print("No support images found for few-shot. Abort.")
+        tar.close()
+        return None, None
+
+    support_tensor = torch.stack(support_images).to(device)
+    support_labels = torch.tensor(support_labels, device=device)
+
     with torch.no_grad():
-        text_features = model.encode_text(all_tokens)
-        text_features /= text_features.norm(dim=-1, keepdim=True)
+        supp_feats = model.encode_image(support_tensor)
+        supp_feats = supp_feats / supp_feats.norm(dim=-1, keepdim=True)
 
-        for batch in tqdm(loader, desc="Validation"):
-            if batch is None: continue
-            images, _, sp_names, ge_names = batch
-            img_feat = model.encode_image(images.to(device))
-            img_feat /= img_feat.norm(dim=-1, keepdim=True)
-            
-            # Calcul de similarité cosinus
-            probs = (100.0 * img_feat @ text_features.T).softmax(dim=-1).cpu().numpy()
-            
-            # Debug : Visualisation du Top 5 pour vérifier si le modèle "hésite"
-            top5_idx = np.argsort(probs[0])[-5:][::-1]
-            print(f"\nDEBUG Image 0: True={sp_names[0]} | Preds={[species_list[i] for i in top5_idx]}")
-            
-            for i, prob in enumerate(probs):
-                pred_idx = np.argmax(prob)
-                y_true_sp.append(sp_names[i])
-                y_pred_sp.append(species_list[pred_idx])
-                y_true_ge.append(ge_names[i])
-                
-                # [cite_start]Agrégation par genre (impact de la hiérarchie) [cite: 139]
-                gen_probs = {}
-                for idx, p in enumerate(prob):
-                    g = species_to_genus[species_list[idx]]
-                    gen_probs[g] = gen_probs.get(g, 0) + p
+    # compute prototypes
+    prototypes = []
+    for c in range(len(support_species)):
+        mask = (support_labels == c)
+        proto = supp_feats[mask].mean(dim=0)
+        proto = proto / proto.norm()
+        prototypes.append(proto)
+    prototypes = torch.stack(prototypes)
+
+    # evaluate on val_data
+    y_true_sp, y_pred_sp, y_true_ge, y_pred_ge = [], [], [], []
+
+    # species -> genus mapping (only for supported species)
+    species_to_genus = {s: next((m['gbif']['genus'] for m in meta if m.get('gbif') and m['gbif'].get('species') == s), None) for s in support_species}
+
+    with torch.no_grad():
+        for item in tqdm(val_data, desc=f"Few-shot {n_shot}-shot evaluation"):
+            try:
+                member = tar.getmember(item['archive_path'])
+                f = tar.extractfile(member)
+                img = Image.open(io.BytesIO(f.read())).convert('RGB')
+                inp = preprocess(img).unsqueeze(0).to(device)
+            except Exception:
+                continue
+
+            img_feat = model.encode_image(inp)
+            img_feat = img_feat / img_feat.norm(dim=-1, keepdim=True)
+
+            logits = (100.0 * img_feat @ prototypes.T).softmax(dim=-1).cpu().numpy()[0]
+
+            pred_idx = int(np.argmax(logits))
+            pred_sp = support_species[pred_idx]
+
+            y_true_sp.append(item['gbif']['species'])
+            y_pred_sp.append(pred_sp)
+            y_true_ge.append(item['gbif']['genus'])
+
+            # aggregate by genus
+            gen_probs = {}
+            for idx, p in enumerate(logits):
+                g = species_to_genus.get(support_species[idx])
+                if g is None: continue
+                gen_probs[g] = gen_probs.get(g, 0) + p
+            if len(gen_probs) > 0:
                 y_pred_ge.append(max(gen_probs, key=gen_probs.get))
+            else:
+                y_pred_ge.append(None)
 
-    return accuracy_score(y_true_sp, y_pred_sp), accuracy_score(y_true_ge, y_pred_ge)
+    tar.close()
+
+    sp_acc = accuracy_score(y_true_sp, y_pred_sp) if len(y_true_sp) else 0.0
+    ge_acc = accuracy_score(y_true_ge, y_pred_ge) if len(y_true_ge) else 0.0
+
+    print(f"Few-shot results ({n_shot}-shot): Species acc={sp_acc:.2%}, Genus acc={ge_acc:.2%}")
+    return sp_acc, ge_acc
 
 def main():
-    print(f"Device: {device.upper()}")
-    # Utilisation de ViT-B/32 pour permettre l'exécution sur CPU
-    model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
-    
+
+    # Charge modèle viT clib B/32 mais il faudrait utiliser L/14 a terme
+    model, preprocess = clip.load("ViT-L/14", device=device, jit=False)
+
+    # Charge les metadata de l'archive
     with open(METADATA_PATH, 'r') as f:
         meta = json.load(f)
-    
-    # [cite_start]Identification à l'espèce requise pour l'étude [cite: 112]
     valid_data = [m for m in meta if m.get('gbif') and m['gbif'].get('species')]
-    species_list = sorted(list(set([m['gbif']['species'] for m in valid_data])))
+
+    # espèces triées et mapping espèce et genre
+    species_list = sorted({m['gbif']['species'] for m in valid_data})
     species_to_genus = {m['gbif']['species']: m['gbif']['genus'] for m in valid_data}
-    
+
+    # Build few-shot support/query sets per species (no full re-training)
     random.seed(123)
-    random.shuffle(valid_data)
-    # Split 50/20 conforme à Hansen et al. (2019) [cite_start][cite: 122]
-    train_data = valid_data[:int(len(valid_data)*0.5)] 
-    val_data = valid_data[int(len(valid_data)*0.5):int(len(valid_data)*0.7)] 
+    species_items = {}
+    for m in valid_data:
+        sp = m['gbif']['species']
+        species_items.setdefault(sp, []).append(m)
 
-    train_loader = DataLoader(CarabidDataset(train_data, DATASET_TAR, preprocess), 
-                              batch_size=BATCH_SIZE, shuffle=True, num_workers=0, collate_fn=collate_fn)
-    val_loader = DataLoader(CarabidDataset(val_data, DATASET_TAR, preprocess), 
-                            batch_size=BATCH_SIZE, num_workers=0, collate_fn=collate_fn)
+    train_support = []
+    val_query = []
+    for sp, items in species_items.items():
+        random.shuffle(items)
+        support = items[:FEW_SHOT_SHOTS]
+        query = items[FEW_SHOT_SHOTS:]
+        train_support.extend(support)
+        val_query.extend(query)
 
-    optimizer = optim.AdamW(model.parameters(), lr=LR, weight_decay=0.1)
-    loss_fn = nn.CrossEntropyLoss()
-    scaler = torch.amp.GradScaler(device=device, enabled=(device == 'cuda'))
+    print(f"Support set: {len(train_support)} images across {len(species_items)} species; query set: {len(val_query)} images")
 
-    for epoch in range(EPOCHS):
-        model.train()
-        optimizer.zero_grad()
-        pbar = tqdm(train_loader, desc=f"Train E{epoch}")
-        
-        for i, batch in enumerate(pbar):
-            if batch is None: continue
-            images, tokens = batch[0].to(device), batch[1].to(device)
-            
-            with torch.amp.autocast(device_type=device):
-                # Calcul de la perte contrastive (image <-> texte)
-                logits_img, logits_txt = model(images, tokens)
-                ground_truth = torch.arange(len(images), device=device)
-                
-                # Perte symétrique
-                loss = (loss_fn(logits_img, ground_truth) + loss_fn(logits_txt, ground_truth)) / 2
-                loss = loss / ACCUMULATION_STEPS
-
-            scaler.scale(loss).backward()
-            if (i + 1) % ACCUMULATION_STEPS == 0:
-                scaler.step(optimizer)
-                scaler.update()
-                optimizer.zero_grad()
-            pbar.set_postfix(loss=loss.item() * ACCUMULATION_STEPS)
-        
-        # [cite_start]Validation : Comparaison avec les scores de Hansen (51.9% Sp, 74.9% Gen) [cite: 32]
-        acc_sp, acc_ge = validate(model, val_loader, species_list, species_to_genus)
-        print(f"\nRESULTATS E{epoch} - Accuracy Espèce: {acc_sp:.2%}, Accuracy Genre: {acc_ge:.2%}")
-        torch.save(model.state_dict(), f"carabid_clip_e{epoch}.pt")
+    # Run prototype-based few-shot evaluation and exit
+    run_few_shot(model, meta, train_support, val_query, DATASET_TAR, preprocess, n_shot=FEW_SHOT_SHOTS)
+    return
 
 if __name__ == "__main__":
     main()
+    
+    #1.14% espece 10.6% genre
+    # Few-shot results (20-shot): Species acc=16.82%, Genus acc=41.18%
+    # Few-shot results (20-shot): Species acc=19.29%, Genus acc=49.18%
+    # Few-shot results (30-shot): Species acc=23.60%, Genus acc=50.89%

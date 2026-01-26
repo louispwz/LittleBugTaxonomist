@@ -1,288 +1,392 @@
 [
-    {
-        "technique": "PREDICTIONS ZERO SHOT",
-        "filename": "Data/zero_shot_predictions.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "8.60%",
-                    "correct": "43/500"
-                },
-                "genus": {
-                    "accuracy": "33.20%",
-                    "correct": "166/500"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "22.80%",
-                    "correct": "114/500"
-                },
-                "genus": {
-                    "accuracy": "41.00%",
-                    "correct": "205/500"
-                }
-            }
+  {
+    "technique": "PREDICTIONS ZERO SHOT",
+    "filename": "Data/zero_shot_predictions.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "8.60%",
+          "correct": "43/500"
+        },
+        "genus": {
+          "accuracy": "33.20%",
+          "correct": "166/500"
         }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT sur 4 especes",
-        "filename": "Data/few_shot_predictions_1shot.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "66.67%",
-                    "correct": "216/324"
-                },
-                "genus": {
-                    "accuracy": "88.89%",
-                    "correct": "288/324"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "100.00%",
-                    "correct": "324/324"
-                },
-                "genus": {
-                    "accuracy": "100.00%",
-                    "correct": "324/324"
-                }
-            }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "22.80%",
+          "correct": "114/500"
+        },
+        "genus": {
+          "accuracy": "41.00%",
+          "correct": "205/500"
         }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT sur 4 especes",
-        "filename": "Data/few_shot_predictions_5shot.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "79.55%",
-                    "correct": "245/308"
-                },
-                "genus": {
-                    "accuracy": "95.78%",
-                    "correct": "295/308"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "100.00%",
-                    "correct": "308/308"
-                },
-                "genus": {
-                    "accuracy": "100.00%",
-                    "correct": "308/308"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT sur 4 especes",
-        "filename": "Data/few_shot_predictions_10shot.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "86.81%",
-                    "correct": "250/288"
-                },
-                "genus": {
-                    "accuracy": "95.14%",
-                    "correct": "274/288"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "100.00%",
-                    "correct": "288/288"
-                },
-                "genus": {
-                    "accuracy": "100.00%",
-                    "correct": "288/288"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT sur 4 especes",
-        "filename": "Data/few_shot_predictions_25shot.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "89.91%",
-                    "correct": "205/228"
-                },
-                "genus": {
-                    "accuracy": "95.18%",
-                    "correct": "217/228"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "100.00%",
-                    "correct": "228/228"
-                },
-                "genus": {
-                    "accuracy": "100.00%",
-                    "correct": "228/228"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT sur 4 especes",
-        "filename": "Data/few_shot_predictions_50shot.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "91.41%",
-                    "correct": "117/128"
-                },
-                "genus": {
-                    "accuracy": "96.09%",
-                    "correct": "123/128"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "100.00%",
-                    "correct": "128/128"
-                },
-                "genus": {
-                    "accuracy": "100.00%",
-                    "correct": "128/128"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT all dataset",
-        "filename": "Data/new_few_shot_predictions_1shot_freeze.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "44.15%",
-                    "correct": "1267/2870"
-                },
-                "genus": {
-                    "accuracy": "76.24%",
-                    "correct": "2188/2870"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "72.61%",
-                    "correct": "2084/2870"
-                },
-                "genus": {
-                    "accuracy": "94.25%",
-                    "correct": "2705/2870"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT all dataset",
-        "filename": "Data/new_few_shot_predictions_5shot_freeze.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "64.74%",
-                    "correct": "1858/2870"
-                },
-                "genus": {
-                    "accuracy": "88.92%",
-                    "correct": "2552/2870"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "90.35%",
-                    "correct": "2593/2870"
-                },
-                "genus": {
-                    "accuracy": "97.49%",
-                    "correct": "2798/2870"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT all dataset",
-        "filename": "Data/new_few_shot_predictions_10shot_freeze.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "71.95%",
-                    "correct": "2065/2870"
-                },
-                "genus": {
-                    "accuracy": "90.94%",
-                    "correct": "2610/2870"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "93.48%",
-                    "correct": "2683/2870"
-                },
-                "genus": {
-                    "accuracy": "98.40%",
-                    "correct": "2824/2870"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT all dataset",
-        "filename": "Data/new_few_shot_predictions_25shot_freeze.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "76.62%",
-                    "correct": "2199/2870"
-                },
-                "genus": {
-                    "accuracy": "92.58%",
-                    "correct": "2657/2870"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "95.26%",
-                    "correct": "2734/2870"
-                },
-                "genus": {
-                    "accuracy": "98.64%",
-                    "correct": "2831/2870"
-                }
-            }
-        }
-    },
-    {
-        "technique": "PREDICTIONS FEW SHOT all dataset",
-        "filename": "Data/new_few_shot_predictions_50shot_freeze.json",
-        "metrics": {
-            "top1_accuracy": {
-                "species": {
-                    "accuracy": "75.86%",
-                    "correct": "2106/2776"
-                },
-                "genus": {
-                    "accuracy": "92.29%",
-                    "correct": "2562/2776"
-                }
-            },
-            "top5_accuracy": {
-                "species": {
-                    "accuracy": "94.31%",
-                    "correct": "2618/2776"
-                },
-                "genus": {
-                    "accuracy": "98.63%",
-                    "correct": "2738/2776"
-                }
-            }
-        }
+      }
     }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT sur 4 especes",
+    "filename": "Data/few_shot_predictions_1shot.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "66.67%",
+          "correct": "216/324"
+        },
+        "genus": {
+          "accuracy": "88.89%",
+          "correct": "288/324"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "100.00%",
+          "correct": "324/324"
+        },
+        "genus": {
+          "accuracy": "100.00%",
+          "correct": "324/324"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT sur 4 especes",
+    "filename": "Data/few_shot_predictions_5shot.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "79.55%",
+          "correct": "245/308"
+        },
+        "genus": {
+          "accuracy": "95.78%",
+          "correct": "295/308"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "100.00%",
+          "correct": "308/308"
+        },
+        "genus": {
+          "accuracy": "100.00%",
+          "correct": "308/308"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT sur 4 especes",
+    "filename": "Data/few_shot_predictions_10shot.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "86.81%",
+          "correct": "250/288"
+        },
+        "genus": {
+          "accuracy": "95.14%",
+          "correct": "274/288"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "100.00%",
+          "correct": "288/288"
+        },
+        "genus": {
+          "accuracy": "100.00%",
+          "correct": "288/288"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT sur 4 especes",
+    "filename": "Data/few_shot_predictions_25shot.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "89.91%",
+          "correct": "205/228"
+        },
+        "genus": {
+          "accuracy": "95.18%",
+          "correct": "217/228"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "100.00%",
+          "correct": "228/228"
+        },
+        "genus": {
+          "accuracy": "100.00%",
+          "correct": "228/228"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT sur 4 especes",
+    "filename": "Data/few_shot_predictions_50shot.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "91.41%",
+          "correct": "117/128"
+        },
+        "genus": {
+          "accuracy": "96.09%",
+          "correct": "123/128"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "100.00%",
+          "correct": "128/128"
+        },
+        "genus": {
+          "accuracy": "100.00%",
+          "correct": "128/128"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT all dataset",
+    "filename": "Data/new_few_shot_predictions_1shot_freeze.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "44.15%",
+          "correct": "1267/2870"
+        },
+        "genus": {
+          "accuracy": "76.24%",
+          "correct": "2188/2870"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "72.61%",
+          "correct": "2084/2870"
+        },
+        "genus": {
+          "accuracy": "94.25%",
+          "correct": "2705/2870"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT all dataset",
+    "filename": "Data/new_few_shot_predictions_5shot_freeze.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "64.74%",
+          "correct": "1858/2870"
+        },
+        "genus": {
+          "accuracy": "88.92%",
+          "correct": "2552/2870"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "90.35%",
+          "correct": "2593/2870"
+        },
+        "genus": {
+          "accuracy": "97.49%",
+          "correct": "2798/2870"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT all dataset",
+    "filename": "Data/new_few_shot_predictions_10shot_freeze.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "71.95%",
+          "correct": "2065/2870"
+        },
+        "genus": {
+          "accuracy": "90.94%",
+          "correct": "2610/2870"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "93.48%",
+          "correct": "2683/2870"
+        },
+        "genus": {
+          "accuracy": "98.40%",
+          "correct": "2824/2870"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT all dataset",
+    "filename": "Data/new_few_shot_predictions_25shot_freeze.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "76.62%",
+          "correct": "2199/2870"
+        },
+        "genus": {
+          "accuracy": "92.58%",
+          "correct": "2657/2870"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "95.26%",
+          "correct": "2734/2870"
+        },
+        "genus": {
+          "accuracy": "98.64%",
+          "correct": "2831/2870"
+        }
+      }
+    }
+  },
+  {
+    "technique": "PREDICTIONS FEW SHOT all dataset",
+    "filename": "Data/new_few_shot_predictions_50shot_freeze.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "75.86%",
+          "correct": "2106/2776"
+        },
+        "genus": {
+          "accuracy": "92.29%",
+          "correct": "2562/2776"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "94.31%",
+          "correct": "2618/2776"
+        },
+        "genus": {
+          "accuracy": "98.63%",
+          "correct": "2738/2776"
+        }
+      }
+    }
+  },
+  {
+    "technique": "ViT PREDICTIONS Clip",
+    "filename": "Data/viT_predictions_hierarchical.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "0.00%",
+          "correct": "0/500"
+        },
+        "genus": {
+          "accuracy": "16.60%",
+          "correct": "83/500"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "2.00%",
+          "correct": "10/500"
+        },
+        "genus": {
+          "accuracy": "26.60%",
+          "correct": "133/500"
+        }
+      }
+    }
+  },
+  {
+    "technique": "ViT PREDICTIONS Clip",
+    "filename": "Data/viT_predictions_constant.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "1.00%",
+          "correct": "5/500"
+        },
+        "genus": {
+          "accuracy": "1.00%",
+          "correct": "5/500"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "2.00%",
+          "correct": "10/500"
+        },
+        "genus": {
+          "accuracy": "20.00%",
+          "correct": "100/500"
+        }
+      }
+    }
+  },
+  {
+    "technique": "ViT PREDICTIONS Clip",
+    "filename": "Data/viT_predictions_random.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "0.00%",
+          "correct": "0/500"
+        },
+        "genus": {
+          "accuracy": "1.60%",
+          "correct": "8/500"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "0.40%",
+          "correct": "2/500"
+        },
+        "genus": {
+          "accuracy": "21.20%",
+          "correct": "106/500"
+        }
+      }
+    }
+  },
+  {
+    "technique": "ViT PREDICTIONS Clip",
+    "filename": "Data/viT_predictions_label_plat.json",
+    "metrics": {
+      "top1_accuracy": {
+        "species": {
+          "accuracy": "1.40%",
+          "correct": "7/500"
+        },
+        "genus": {
+          "accuracy": "17.60%",
+          "correct": "88/500"
+        }
+      },
+      "top5_accuracy": {
+        "species": {
+          "accuracy": "4.40%",
+          "correct": "22/500"
+        },
+        "genus": {
+          "accuracy": "26.20%",
+          "correct": "131/500"
+        }
+      }
+    }
+  }
 ]

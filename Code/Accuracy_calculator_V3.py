@@ -114,6 +114,19 @@ def process_batch_accuracies(experiments_map: Dict[str, List[str]], output_json_
             }
             all_results.append(file_result)
 
+    # Écrire les résultats agrégés dans le fichier de sortie
+    try:
+        out_dir = os.path.dirname(output_json_path)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
+        with open(output_json_path, "w", encoding="utf-8") as out_f:
+            json.dump(all_results, out_f, ensure_ascii=False, indent=2)
+        print(f"Wrote summary for {len(all_results)} files to {output_json_path}")
+    except Exception as e:
+        print(f"Failed to write output file {output_json_path}: {e}")
+    
+    return all_results
+
 
 
 
@@ -140,6 +153,12 @@ if __name__ == "__main__":
             "Data/new_few_shot_predictions_10shot_freeze.json",
             "Data/new_few_shot_predictions_25shot_freeze.json",
             "Data/new_few_shot_predictions_50shot_freeze.json"
+        ],
+        "ViT PREDICTIONS Clip" : [
+            "Data/viT_predictions_hierarchical.json",
+            "Data/viT_predictions_constant.json",
+            "Data/viT_predictions_random.json",
+            "Data/viT_predictions_label_plat.json"
         ]
     }
 
