@@ -41,10 +41,10 @@ Utilisation de **prototypes** pour classer les insectes à partir de très peu d
 ---
 
 ### Problématiques de Recherche
-Le projet s'articule autour de trois questions majeures :
-1. **Organisation de l'espace latent** : Comment l'espace latent de BioClip2 est-il structuré et est-il performant nativement pour distinguer les traits morphologiques des insectes ?
-2. **Adaptabilité (Fine-tuning)** : Est-il possible d'adapter facilement BioClip2 à une tâche spécifique (ex: reconnaissance des carabes de l'INRAE) via du fine-tuning ou du few-shot ?
-3. **Impact de la hiérarchie** : Quelle est l'influence réelle de l'intégration de la taxonomie sur les performances du modèle ? Est-ce qu'une structure hiérarchique améliore la précision par rapport à une classification "à plat" ?
+Le projet s'articule autour de trois questions :
+1. **Organisation de l'espace latent** : Comment l'espace latent de BioClip2 est-il structuré et est-il performant pour distinguer les traits morphologiques des insectes spécifiquement ?
+2. **Adaptabilité (Fine-tuning)** : Est-il possible d'adapter facilement BioClip2 à une tâche spécifique via du fine-tuning ou du few-shot ?
+3. **Impact de la hiérarchie** : Quelle est l'influence réelle de l'intégration de la taxonomie sur les performances du modèle ? Est-ce qu'une structure hiérarchique améliore la précision par rapport à une classification avec un label plat ?
 
 ---
 
