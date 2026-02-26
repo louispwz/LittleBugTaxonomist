@@ -5,7 +5,7 @@
 ---
 
 ## Présentation du Projet
-L'objectif est de transformer des modèles de vision généralistes en outils experts capables de respecter la hiérarchie biologique (Espèce > Genre > Famille). Le projet s'articule autour de trois axes :
+L'objectif est de transformer des modèles de vision généralistes en outils capables de respecter la hiérarchie biologique (Espèce > Genre > Famille) dans sa vision d'une image. Le projet s'articule autour de trois axes :
 1. **Défrichement méthodologique** : Tester la robustesse des modèles de fondation (BioClip2, CLIP) sur des tâches spécifiques.
 2. **Évaluation hiérarchique** : Mesurer comment les erreurs se répartissent dans l'arbre taxonomique.
 3. **Apprentissage efficace** : Comparer le Fine-tuning complet avec des approches Few-shot et Zero-shot.
@@ -14,15 +14,15 @@ L'objectif est de transformer des modèles de vision généralistes en outils ex
 ---
 
 ## Structure du Dépôt
-* **`/Code`** : Scripts principaux d'entraînement et d'inférence, l'intégralité des tests sont dans ce dossier.
-* **`/Data`** : Stockage des jeux de données (redimensionnées ou en `.tar`) et des métadonnées GBIF extraites.
-* **`/Results`** : Logs d'entraînement, prédictions JSON et statistiques de performance.
-* **`/Research`** : Comptes-rendus de réunions et notes théoriques.
-* **`/Bibliographie`** : Articles de référence principalement sur BioClip, ViT, apprentissage contrastif.
+* **`/Code`** : Scripts principaux d'entraînement et d'inférence, l'intégralité des tests sont dans ce dossier
+* **`/Data`** : Stockage des jeux de données (redimensionnées ou en `.tar`) et des métadonnées GBIF extraites
+* **`/Results`** : Logs d'entraînement, prédictions JSON et statistiques de performance
+* **`/Research`** : Comptes-rendus de réunions et notes théoriques
+* **`/Bibliographie`** : Articles de référence principalement sur BioClip, ViT, apprentissage contrastif
 
 ---
 
-##  Solutions Techniques (`/Code`)
+##  Techniques (`/Code`)
 
 ### 1. Fine-Tuning de BioClip2 (`FINE_TUNING.py`)
 Implémentation d'un entraînement en deux phases pour adapter le modèle sans perdre sa capacité de généralisation :
